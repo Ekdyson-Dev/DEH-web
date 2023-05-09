@@ -4,80 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 @import "mixins";
 @import "variables";
-
-%animation_link_tool {
-    $s: 0.1em;
-    $c: $secondary-color;
-    color: $font-color;
-    padding-bottom: $s;
-    background: linear-gradient($c 0 0) 0% 100% / var(--_p, 0%) $s no-repeat;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    transition: background 0.5s, color 0.2s;
-    z-index: 4;
-
-    &:hover {
-        --_p: 100%;
-        color: $secondary-color;
-        cursor: pointer;
-    }
-}
-
-%input_tool {
-    @include elSize(1.2rem, 1.2rem);
-    margin: 0;
-    min-width: 1.2rem;
-    min-height: 1.2rem;
-    cursor: pointer;
-    -webkit-appearance: none;
-    appearance: none;
-    background-color: transparent;
-    font: caption;
-    color: $font-color;
-    border: 2px solid $font-color;
-    display: grid;
-    place-content: center;
-    transition: all 0.3s;
-
-    &::before {
-        @include elSize(0.7em, 0.7em);
-        content: "";
-        transform: scale(0);
-        transition: transform 0.3s;
-        box-shadow: inset 1em 1em $secondary-color;
-        background-color: transparent;
-    }
-
-    &:checked::before {
-        transform: scale(1);
-    }
-}
-
-%scrollbar {
-    &::-webkit-scrollbar {
-        width: 0.6rem;
-        height: 0.6rem;
-    }
-
-    &::-webkit-scrollbar-track {
-        background: rgba(197, 196, 196, 0.574);
-    }
-
-    &::-webkit-scrollbar-thumb {
-        background: rgba(105, 104, 104, 0.6);
-        border-radius: 2px;
-
-        &:hover {
-            background: rgba(95, 95, 95, 0.6);
-            cursor: pointer;
-        }
-    }
-
-    &::-webkit-color-swatch {
-        border: 0;
-        border-radius: 3px;
-    }
-}
+@import "placeholders";
 
 @keyframes background {
     100% {
@@ -174,7 +101,7 @@ header {
             margin: auto;
             position: sticky;
 
-            > div {
+            >div {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -205,13 +132,12 @@ header {
         @include elSize(100vh, 100%);
         @include display(flex, center, center);
         background-image: url("/img/bg.png");
-        //background-repeat: no-repeat;
         background-size: 2000px 1000px;
         background-position: 0;
         margin: auto;
         animation: background 10s infinite alternate linear;
 
-        > div {
+        >div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr;
             gap: 5rem;
@@ -221,7 +147,7 @@ header {
                 width: 100%;
             }
 
-            > div {
+            >div {
                 color: $font-color;
 
                 p {
@@ -250,31 +176,18 @@ header {
     .about {
         @include display(grid, center, center);
 
-        > div {
+        >div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr 1fr;
             max-width: 1300px;
             gap: 5rem;
 
             .container {
-                background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.15) 100%);
-                //backdrop-filter: blur(3.5px);
-                padding: 3rem 2.5rem;
+                @extend %container_tool;
                 box-shadow: 0 20px 40px 0 rgba(216, 227, 235, 0.776);
-                border-radius: 1rem;
-                scale: 1;
-                transition: scale 0.3s;
-
-                &:hover {
-                    scale: 1.03;
-                }
-
-                img {
-                    width: 100%;
-                }
 
                 .sub_heading {
-                    margin: 5rem 0 1rem 0;
+                    margin: 2.5rem 0 1rem 0;
                 }
 
                 .text {
@@ -291,6 +204,7 @@ header {
                     img {
                         height: 100%;
                         max-width: 24px;
+                        padding: 0;
                     }
 
                     p {
@@ -306,7 +220,7 @@ header {
         background-color: $tertiary-color;
         scroll-margin-bottom: 15rem;
 
-        > div {
+        >div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr;
             gap: 5rem;
@@ -316,7 +230,7 @@ header {
                 width: 100%;
             }
 
-            > div {
+            >div {
                 @include display(grid);
                 width: 100%;
                 gap: 2rem;
@@ -345,7 +259,7 @@ header {
         background-size: cover;
         color: $font-color;
 
-        > div {
+        >div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr 1fr;
             max-width: 1300px;
@@ -353,24 +267,7 @@ header {
             height: 100%;
 
             .container {
-                @include display(grid, space-between, center);
-                background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.15) 100%);
-                //backdrop-filter: blur(3.5px);
-                padding: 2.5rem;
-                box-shadow: 0 20px 40px 0 rgba(216, 227, 235, 0.15);
-                border-radius: 1rem;
-                scale: 1;
-                height: 100%;
-                transition: scale 0.3s;
-
-                &:hover {
-                    scale: 1.03;
-                }
-
-                img {
-                    width: 100%;
-                    padding: 2.5rem 0;
-                }
+                @extend %container_tool;
 
                 .text {
                     margin: 0;
@@ -387,10 +284,49 @@ header {
         }
     }
 
+    .team {
+        @include display(grid, center, center);
+        background-color: $font-color;
+
+        >div {
+            @include display(grid, center, center);
+            grid-template-columns: 1fr 1fr 1fr;
+            max-width: 1300px;
+            gap: 5rem;
+            height: 100%;
+
+            .container {
+                @extend %container_tool;
+                @include display(flex, flex-end, center);
+                box-shadow: 0 20px 40px 0 rgba(189, 200, 209, 0.935);
+                padding: 0;
+                min-height: 500px;
+                color: $font-color;
+
+                &.filip,
+                &.martin,
+                &.petr {
+                    background-image: url("/img/profilePhoto.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                >div {
+                    @include display(grid);
+                    padding: 2.5rem;
+                    background-color: $primary-color-opacity;
+                    border-radius: 0 0 1rem 1rem;
+                    backdrop-filter: contrast(180%);
+                }
+            }
+        }
+    }
+
     .review {
         @include display(grid, center, center);
 
-        > div {
+        >div {
             max-width: 1300px;
             padding: 2rem 0;
 
@@ -402,7 +338,7 @@ header {
                     margin: 0;
                 }
 
-                > div {
+                >div {
                     @include display(flex, center, center);
                     gap: 2rem;
 
@@ -460,7 +396,7 @@ header {
             max-width: 1300px;
             margin: auto;
 
-            > div {
+            >div {
                 @include display(grid, center, left);
                 width: fit-content;
                 margin: auto;
@@ -492,6 +428,7 @@ header {
                     width: 100%;
                     border: 0;
                     outline: 0;
+                    font-size: 1rem;
                     resize: none;
                     margin-top: 8px;
                     color: $font-color;
@@ -505,7 +442,7 @@ header {
                 .radio_div {
                     margin-top: 8px;
 
-                    > div {
+                    >div {
                         @include display(flex, center, left);
                         gap: 0.5rem;
                     }
@@ -519,7 +456,7 @@ header {
                 .submit {
                     width: fit-content;
                     cursor: pointer;
-                    padding: 1rem 2rem;
+                    padding: 1rem 3rem;
                     border-radius: 4px;
                     color: #1d1d1f;
                     font-weight: 500;
