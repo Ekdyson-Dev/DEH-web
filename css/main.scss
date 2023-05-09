@@ -53,6 +53,32 @@
     }
 }
 
+%scrollbar {
+    &::-webkit-scrollbar {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: rgba(197, 196, 196, 0.574);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgba(105, 104, 104, 0.6);
+        border-radius: 2px;
+
+        &:hover {
+            background: rgba(95, 95, 95, 0.6);
+            cursor: pointer;
+        }
+    }
+
+    &::-webkit-color-swatch {
+        border: 0;
+        border-radius: 3px;
+    }
+}
+
 @keyframes background {
     100% {
         background-size: 4000px 1000px;
@@ -75,6 +101,8 @@ html {
     font-size: 1rem;
     background-color: #fff;
     color: #1d1d1f;
+    overflow-x: hidden;
+    @extend %scrollbar;
 }
 
 button {
@@ -212,15 +240,16 @@ header {
     .about {
         @include display(grid, center, center);
 
-        > div {
-            @include display(flex, center, center);
+        >div {
+            @include display(grid, center, center);
+            grid-template-columns: 1fr 1fr 1fr;
             max-width: 1300px;
             gap: 5rem;
 
             .container {
                 background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.15) 100%);
                 //backdrop-filter: blur(3.5px);
-                padding: 2.5rem;
+                padding: 3rem 2.5rem;
                 box-shadow: 0 20px 40px 0 rgba(216, 227, 235, 0.776);
                 border-radius: 1rem;
                 scale: 1;
@@ -235,7 +264,7 @@ header {
                 }
 
                 .sub_heading {
-                    margin: 4rem 0 1rem 0;
+                    margin: 5rem 0 1rem 0;
                 }
 
                 .text {
@@ -265,6 +294,7 @@ header {
     .benefits {
         @include display(flex, center, center);
         background-color: $tertiary-color;
+        scroll-margin-bottom: 15rem;
 
         > div {
             @include display(grid, center, center);
@@ -306,18 +336,21 @@ header {
         color: $font-color;
 
         > div {
-            @include display(flex);
+            @include display(grid, center, center);
+            grid-template-columns: 1fr 1fr 1fr;
             max-width: 1300px;
             gap: 5rem;
             height: 100%;
 
             .container {
+                @include display(grid, space-between, center);
                 background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.15) 100%);
                 //backdrop-filter: blur(3.5px);
                 padding: 2.5rem;
                 box-shadow: 0 20px 40px 0 rgba(216, 227, 235, 0.15);
                 border-radius: 1rem;
                 scale: 1;
+                height: 100%;
                 transition: scale 0.3s;
 
                 &:hover {
@@ -460,7 +493,11 @@ header {
 
                 .radio_div {
                     margin-top: 8px;
-                    gap: 0.5rem;
+
+                    >div {
+                        @include display(flex, center, left);
+                        gap: 0.5rem;
+                    }
                 }
 
                 textarea {
@@ -477,6 +514,11 @@ header {
                     font-weight: 500;
                     min-width: unset;
                     background-color: $secondary-color;
+                    transition: all 0.3s;
+
+                    &:hover {
+                        filter: brightness(0.75);
+                    }
                 }
 
                 .radio {

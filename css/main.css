@@ -3,9 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 header nav .navbar > div a {
-  color: #F7F7F7;
+  color: #f7f7f7;
   padding-bottom: 0.1em;
-  background: linear-gradient(#77CCF7 0 0) 0% 100%/var(--_p, 0%) 0.1em no-repeat;
+  background: linear-gradient(#77ccf7 0 0) 0% 100%/var(--_p, 0%) 0.1em no-repeat;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   transition: background 0.5s, color 0.2s;
@@ -13,7 +13,7 @@ header nav .navbar > div a {
 }
 header nav .navbar > div a:hover {
   --_p: 100%;
-  color: #77CCF7;
+  color: #77ccf7;
   cursor: pointer;
 }
 
@@ -29,8 +29,8 @@ header nav .navbar > div a:hover {
        appearance: none;
   background-color: transparent;
   font: caption;
-  color: #F7F7F7;
-  border: 2px solid #F7F7F7;
+  color: #f7f7f7;
+  border: 2px solid #f7f7f7;
   display: grid;
   place-content: center;
   transition: all 0.3s;
@@ -41,11 +41,36 @@ header nav .navbar > div a:hover {
   content: "";
   transform: scale(0);
   transition: transform 0.3s;
-  box-shadow: inset 1em 1em #77CCF7;
+  box-shadow: inset 1em 1em #77ccf7;
   background-color: transparent;
 }
 .content .contact form > div input[type=radio]:checked::before {
   transform: scale(1);
+}
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+body::-webkit-scrollbar-track,
+html::-webkit-scrollbar-track {
+  background: rgba(197, 196, 196, 0.574);
+}
+body::-webkit-scrollbar-thumb,
+html::-webkit-scrollbar-thumb {
+  background: rgba(105, 104, 104, 0.6);
+  border-radius: 2px;
+}
+body::-webkit-scrollbar-thumb:hover,
+html::-webkit-scrollbar-thumb:hover {
+  background: rgba(95, 95, 95, 0.6);
+  cursor: pointer;
+}
+body::-webkit-color-swatch,
+html::-webkit-color-swatch {
+  border: 0;
+  border-radius: 3px;
 }
 
 @keyframes background {
@@ -69,12 +94,13 @@ html {
   font-size: 1rem;
   background-color: #fff;
   color: #1d1d1f;
+  overflow-x: hidden;
 }
 
 button {
   border: none;
   border-radius: 0;
-  background-color: #77CCF7;
+  background-color: #77ccf7;
   color: #1d1d1f;
   font-family: "DM Sans", sans-serif;
   padding: 1rem 3rem;
@@ -153,7 +179,7 @@ header nav .navbar > div a {
   width: -moz-fit-content;
   width: fit-content;
   text-decoration: none;
-  color: #F7F7F7;
+  color: #f7f7f7;
 }
 header nav .navbar .logo {
   height: 100%;
@@ -192,7 +218,7 @@ header .hero > div img {
   width: 100%;
 }
 header .hero > div > div {
-  color: #F7F7F7;
+  color: #f7f7f7;
 }
 header .hero > div > div p {
   font-weight: 500;
@@ -218,17 +244,18 @@ header .hero > div > div button {
   justify-content: center;
 }
 .content .about > div {
-  display: flex;
+  display: grid;
   align-items: center;
   align-content: center;
   justify-items: center;
   justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
   max-width: 1300px;
   gap: 5rem;
 }
 .content .about > div .container {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.15) 100%);
-  padding: 2.5rem;
+  padding: 3rem 2.5rem;
   box-shadow: 0 20px 40px 0 rgba(216, 227, 235, 0.776);
   border-radius: 1rem;
   scale: 1;
@@ -241,7 +268,7 @@ header .hero > div > div button {
   width: 100%;
 }
 .content .about > div .container .sub_heading {
-  margin: 4rem 0 1rem 0;
+  margin: 5rem 0 1rem 0;
 }
 .content .about > div .container .text {
   color: #4c4c4c;
@@ -272,6 +299,7 @@ header .hero > div > div button {
   justify-items: center;
   justify-content: center;
   background-color: #606470;
+  scroll-margin-bottom: 15rem;
 }
 .content .benefits > div {
   display: grid;
@@ -292,12 +320,12 @@ header .hero > div > div button {
   gap: 2rem;
 }
 .content .benefits > div > div .container {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding: 2.5rem;
   width: 100%;
 }
 .content .benefits > div > div .container._1_ {
-  border-left: 4px solid #77CCF7;
+  border-left: 4px solid #77ccf7;
 }
 .content .benefits > div > div .container p {
   margin: 0;
@@ -311,20 +339,31 @@ header .hero > div > div button {
   background-image: url("/img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #F7F7F7;
+  color: #f7f7f7;
 }
 .content .style > div {
-  display: flex;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
   max-width: 1300px;
   gap: 5rem;
   height: 100%;
 }
 .content .style > div .container {
+  display: grid;
+  align-items: space-between;
+  align-content: space-between;
+  justify-items: center;
+  justify-content: center;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.15) 100%);
   padding: 2.5rem;
   box-shadow: 0 20px 40px 0 rgba(216, 227, 235, 0.15);
   border-radius: 1rem;
   scale: 1;
+  height: 100%;
   transition: scale 0.3s;
 }
 .content .style > div .container:hover {
@@ -409,7 +448,7 @@ header .hero > div > div button {
   background-color: #606470;
 }
 .content .contact .heading {
-  color: #F7F7F7;
+  color: #f7f7f7;
 }
 .content .contact form {
   display: grid;
@@ -445,7 +484,8 @@ header .hero > div > div button {
 }
 .content .contact form > div label {
   font-size: 1rem;
-  color: #F7F7F7;
+  color: #f7f7f7;
+  cursor: pointer;
 }
 .content .contact form > div textarea,
 .content .contact form > div .input {
@@ -459,19 +499,26 @@ header .hero > div > div button {
   outline: 0;
   resize: none;
   margin-top: 8px;
-  color: #F7F7F7;
+  color: #f7f7f7;
 }
 .content .contact form > div textarea::-moz-placeholder, .content .contact form > div .input::-moz-placeholder {
-  color: #F7F7F7;
+  color: #f7f7f7;
   opacity: 0.6;
 }
 .content .contact form > div textarea::placeholder,
 .content .contact form > div .input::placeholder {
-  color: #F7F7F7;
+  color: #f7f7f7;
   opacity: 0.6;
 }
 .content .contact form > div .radio_div {
   margin-top: 8px;
+}
+.content .contact form > div .radio_div > div {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: left;
+  justify-content: left;
   gap: 0.5rem;
 }
 .content .contact form > div textarea {
@@ -487,7 +534,11 @@ header .hero > div > div button {
   color: #1d1d1f;
   font-weight: 500;
   min-width: unset;
-  background-color: #77CCF7;
+  background-color: #77ccf7;
+  transition: all 0.3s;
+}
+.content .contact form > div .submit:hover {
+  filter: brightness(0.75);
 }
 .content .contact form > div .radio {
   cursor: pointer;
