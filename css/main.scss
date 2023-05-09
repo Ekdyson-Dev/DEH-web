@@ -23,6 +23,36 @@
     }
 }
 
+%input_tool {
+    @include elSize(1.2rem, 1.2rem);
+    margin: 0;
+    min-width: 1.2rem;
+    min-height: 1.2rem;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    font: caption;
+    color: $font-color;
+    border: 2px solid $font-color;
+    display: grid;
+    place-content: center;
+    transition: all 0.3s;
+
+    &::before {
+        @include elSize(0.7em, 0.7em);
+        content: "";
+        transform: scale(0);
+        transition: transform 0.3s;
+        box-shadow: inset 1em 1em $secondary-color;
+        background-color: transparent;
+    }
+
+    &:checked::before {
+        transform: scale(1);
+    }
+}
+
 @keyframes background {
     100% {
         background-size: 4000px 1000px;
@@ -84,7 +114,7 @@ p {
 }
 
 section {
-    overflow-x: hidden;
+    overflow: hidden;
     padding: 6rem 0;
     min-height: 70vh;
 }
@@ -172,6 +202,7 @@ header {
                 button {
                     margin-top: 2rem;
                     padding: 1rem 4rem;
+                    border-radius: 4px;
                 }
             }
 
@@ -194,7 +225,7 @@ header {
                 //backdrop-filter: blur(3.5px);
                 padding: 2.5rem;
                 box-shadow: 0 20px 40px 0 rgba(216, 227, 235, 0.776);
-                border-radius: 2rem;
+                border-radius: 1rem;
                 scale: 1;
                 transition: scale 0.3s;
 
@@ -289,7 +320,7 @@ header {
                 //backdrop-filter: blur(3.5px);
                 padding: 2.5rem;
                 box-shadow: 0 20px 40px 0 rgba(216, 227, 235, 0.15);
-                border-radius: 2rem;
+                border-radius: 1rem;
                 scale: 1;
                 transition: scale 0.3s;
 
@@ -391,15 +422,78 @@ header {
             margin: auto;
 
             >div {
+                @include display(grid, center, left);
                 width: fit-content;
                 margin: auto;
+                gap: 1rem;
 
                 .grid {
-                    @include display(grid, center, left);
+                    width: 100%;
                 }
 
                 .form_flex_div {
-                    @include display(flex, center, center);
+                    @include display(flex, center, left);
+                    gap: 1rem;
+                    width: 100%;
+                }
+
+                label {
+                    font-size: 1rem;
+                    color: $font-color;
+                }
+
+                textarea,
+                .input {
+                    background-color: $primary-color;
+                    font-family: 'DM Sans', sans-serif;
+                    padding: 14px 16px;
+                    border-radius: 8px;
+                    min-width: 100%;
+                    width: 100%;
+                    border: 0;
+                    outline: 0;
+                    resize: none;
+                    margin-top: 8px;
+                    color: $font-color;
+
+                    &::placeholder {
+                        color: $font-color;
+                        opacity: 0.6;
+                    }
+                }
+
+                .radio_div {
+                    margin-top: 8px;
+                    gap: 0.5rem;
+                }
+
+                textarea {
+                    min-width: 560px;
+                    height: 120px;
+                }
+
+                .submit {
+                    width: fit-content;
+                    cursor: pointer;
+                    padding: 1rem 2rem;
+                    border-radius: 4px;
+                    color: #1d1d1f;
+                    font-weight: 500;
+                    min-width: unset;
+                    background-color: $secondary-color;
+                }
+
+                .radio {
+                    cursor: pointer;
+                }
+
+                input[type="radio"] {
+                    @extend %input_tool;
+                    border-radius: 50%;
+
+                    &::before {
+                        border-radius: inherit;
+                    }
                 }
             }
         }
