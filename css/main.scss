@@ -126,6 +126,16 @@ p {
     margin: 0;
 }
 
+a {
+    color: $secondary-color;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        filter: brightness(0.75);
+    }
+}
+
 .heading {
     font-size: 46px;
     width: 100%;
@@ -240,7 +250,7 @@ header {
     .about {
         @include display(grid, center, center);
 
-        >div {
+        > div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr 1fr;
             max-width: 1300px;
@@ -424,6 +434,7 @@ header {
 
                         .msg {
                             margin: 0 0 2.5rem 0;
+                            font-size: 20px;
                         }
 
                         .job {
@@ -494,7 +505,7 @@ header {
                 .radio_div {
                     margin-top: 8px;
 
-                    >div {
+                    > div {
                         @include display(flex, center, left);
                         gap: 0.5rem;
                     }
@@ -540,5 +551,7 @@ header {
 
 footer {
     background-color: $primary-color;
-    height: 500px;
+    color: $font-color;
+    padding: 3rem;
+    text-align: center;
 }

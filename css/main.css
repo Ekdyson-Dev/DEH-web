@@ -117,6 +117,15 @@ p {
   margin: 0;
 }
 
+a {
+  color: #77ccf7;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+a:hover {
+  filter: brightness(0.75);
+}
+
 .heading {
   font-size: 46px;
   width: 100%;
@@ -438,6 +447,7 @@ header .hero > div > div button {
 }
 .content .review > div .slick_slider .content_msg .text .msg {
   margin: 0 0 2.5rem 0;
+  font-size: 20px;
 }
 .content .review > div .slick_slider .content_msg .text .job {
   font-size: 18px;
@@ -552,5 +562,7 @@ header .hero > div > div button {
 
 footer {
   background-color: #323643;
-  height: 500px;
+  color: #f7f7f7;
+  padding: 3rem;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
