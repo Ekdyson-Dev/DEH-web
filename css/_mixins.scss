@@ -1,0 +1,84 @@
+// resposivity
+@mixin max-width($threshold) {
+    @media screen and (max-width: $threshold) {
+        @content;
+    }
+}
+
+// size of element
+@mixin elSize($height: null, $width: null) {
+    @if $height != null {
+        height: $height;
+    }
+
+    @if $width != null {
+        width: $width;
+    }
+}
+
+// type of display
+@mixin display($display: null, $align: null, $justify: null) {
+    @if $display != null {
+        display: $display;
+    }
+
+    @if $align != null {
+        align-items: $align;
+        align-content: $align;
+    }
+
+    @if $justify != null {
+        justify-items: $justify;
+        justify-content: $justify;
+    }
+}
+
+// text style
+@mixin text($size: null, $weight: null, $align: null) {
+    @if $size != null {
+        font-size: $size;
+    }
+
+    @if $weight != null {
+        font-weight: $weight;
+    }
+
+    @if $align != null {
+        text-align: $align;
+    }
+}
+
+//shade function
+@function shade($color, $percentage) {
+    @return mix(black, $color, $percentage);
+}
+
+//create svg icon
+@mixin svg($color, $url) {
+    background-color: $color;
+    -webkit-mask-image: $url;
+    mask-image: $url;
+    @extend %svg_tool;
+}
+
+//background
+@mixin bg($color: null, $img: null, $repeat: null, $position: null, $size: null, $attachment: null) {
+    @if $color != null {
+        background-color: $color;
+    }
+    @if $img != null {
+        background-image: $img;
+    }
+    @if $repeat != null {
+        background-repeat: $repeat;
+    }
+    @if $position != null {
+        background-position: $position;
+    }
+    @if $size != null {
+        background-size: $size;
+    }
+    @if $attachment != null {
+        background-attachment: $attachment;
+    }
+}
