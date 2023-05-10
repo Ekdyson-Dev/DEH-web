@@ -92,7 +92,6 @@ html::-webkit-color-swatch {
   scale: 1.03;
 }
 .content .team > div .container img, .content .style > div .container img, .content .about > div .container img {
-  width: 100%;
   padding: 2.5rem 0;
 }
 
@@ -121,14 +120,18 @@ html {
 }
 
 button {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
   border: none;
-  border-radius: 0;
+  border-radius: 4px;
   background-color: #77ccf7;
   color: #1d1d1f;
   font-family: "DM Sans", sans-serif;
   padding: 1rem 3rem;
-  font-size: 1rem;
-  font-weight: 600;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   cursor: pointer;
   transition: all 0.2s ease-in;
 }
@@ -143,25 +146,29 @@ p {
 a {
   color: #77ccf7;
   cursor: pointer;
-  transition: all 0.2s ease-in;
 }
-a:hover {
-  filter: brightness(0.75);
+
+img {
+  width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .heading {
   font-size: 46px;
-  width: 100%;
-  text-align: center;
   font-weight: 700;
+  text-align: center;
+  width: 100%;
   margin: 0;
   margin-bottom: 4rem;
 }
 
 .sub_heading {
   font-size: 24px;
-  margin: 0;
   font-weight: 600;
+  text-align: left;
+  margin: 0;
 }
 
 section {
@@ -197,6 +204,8 @@ header nav .navbar {
 header nav .navbar > div {
   display: flex;
   align-items: center;
+  align-content: center;
+  justify-items: center;
   justify-content: center;
   gap: 1rem;
 }
@@ -218,7 +227,6 @@ header nav .navbar .logo {
   padding: 0.5rem 0;
 }
 header nav .navbar .logo img {
-  height: 100%;
   max-height: -moz-fit-content;
   max-height: fit-content;
 }
@@ -231,8 +239,8 @@ header .hero {
   justify-items: center;
   justify-content: center;
   background-image: url("/img/bg.png");
-  background-size: 2000px 1000px;
   background-position: 0;
+  background-size: 2000px 1000px;
   margin: auto;
   animation: background 10s infinite alternate linear;
 }
@@ -246,9 +254,6 @@ header .hero > div {
   gap: 5rem;
   max-width: 1300px;
 }
-header .hero > div img {
-  width: 100%;
-}
 header .hero > div > div {
   color: #f7f7f7;
 }
@@ -257,15 +262,14 @@ header .hero > div > div p {
 }
 header .hero > div > div .hero_heading {
   font-size: 72px;
+  font-weight: 700;
+  text-align: left;
   margin: 0;
   z-index: 1;
-  text-align: left;
-  font-weight: 700;
 }
 header .hero > div > div button {
   margin-top: 2rem;
   padding: 1rem 4rem;
-  border-radius: 4px;
 }
 
 .content .about {
@@ -305,6 +309,10 @@ header .hero > div > div button {
   width: fit-content;
   gap: 0.5rem;
   cursor: pointer;
+  transition: all 0.3s;
+}
+.content .about > div .container .read_more:hover {
+  filter: brightness(0.75);
 }
 .content .about > div .container .read_more img {
   height: 100%;
@@ -333,9 +341,6 @@ header .hero > div > div button {
   gap: 5rem;
   max-width: 1300px;
 }
-.content .benefits > div img {
-  width: 100%;
-}
 .content .benefits > div > div {
   display: grid;
   width: 100%;
@@ -348,9 +353,6 @@ header .hero > div > div button {
 }
 .content .benefits > div > div .container._1_ {
   border-left: 4px solid #77ccf7;
-}
-.content .benefits > div > div .container p {
-  margin: 0;
 }
 .content .style {
   display: grid;
@@ -375,10 +377,10 @@ header .hero > div > div button {
   height: 100%;
 }
 .content .style > div .container .text {
+  font-size: 1.125rem;
+  font-weight: 600;
   margin: 0;
   color: #1d1d1f;
-  font-weight: 600;
-  font-size: 1.125rem;
 }
 .content .style > div .container .content_text {
   margin-top: 0.5rem;
@@ -417,8 +419,8 @@ header .hero > div > div button {
 .content .team > div .container.filip, .content .team > div .container.martin, .content .team > div .container.petr {
   background-image: url("/img/profilePhoto.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 .content .team > div .container > div {
   display: grid;
@@ -472,10 +474,10 @@ header .hero > div > div button {
   gap: 2rem;
 }
 .content .review > div .slick_slider .content_msg img {
-  max-width: 5rem;
-  width: 100%;
   height: -moz-fit-content;
   height: fit-content;
+  width: 100%;
+  max-width: 5rem;
 }
 .content .review > div .slick_slider .content_msg .text {
   display: grid;
@@ -488,6 +490,7 @@ header .hero > div > div button {
 .content .review > div .slick_slider .content_msg .text .job {
   font-size: 18px;
   font-weight: 600;
+  text-align: left;
   color: #4c4c4c;
 }
 .content .contact {
@@ -589,6 +592,9 @@ header .hero > div > div button {
 }
 .content .contact form > div .radio {
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .content .contact form > div input[type=radio] {
   border-radius: 50%;

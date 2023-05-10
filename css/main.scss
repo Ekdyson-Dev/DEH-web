@@ -33,14 +33,14 @@ html {
 }
 
 button {
+    @include text(1rem, 600, center);
     border: none;
-    border-radius: 0;
+    border-radius: $border-radius;
     background-color: $secondary-color;
     color: #1d1d1f;
     font-family: "DM Sans", sans-serif;
     padding: 1rem 3rem;
-    font-size: 1rem;
-    font-weight: 600;
+    user-select: none;
     cursor: pointer;
     transition: all 0.2s ease-in;
 
@@ -56,26 +56,23 @@ p {
 a {
     color: $secondary-color;
     cursor: pointer;
-    transition: all 0.2s ease-in;
+}
 
-    &:hover {
-        filter: brightness(0.75);
-    }
+img {
+    width: 100%;
+    user-select: none;
 }
 
 .heading {
-    font-size: 46px;
+    @include text(46px, 700, center);
     width: 100%;
-    text-align: center;
-    font-weight: 700;
     margin: 0;
     margin-bottom: 4rem;
 }
 
 .sub_heading {
-    font-size: 24px;
+    @include text(24px, 600, left);
     margin: 0;
-    font-weight: 600;
 }
 
 section {
@@ -102,9 +99,7 @@ header {
             position: sticky;
 
             >div {
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                @include display(flex, center, center);
                 gap: 1rem;
 
                 a {
@@ -121,7 +116,6 @@ header {
                 padding: 0.5rem 0;
 
                 img {
-                    height: 100%;
                     max-height: fit-content;
                 }
             }
@@ -131,9 +125,7 @@ header {
     .hero {
         @include elSize(100vh, 100%);
         @include display(flex, center, center);
-        background-image: url("/img/bg.png");
-        background-size: 2000px 1000px;
-        background-position: 0;
+        @include bg($img: url("/img/bg.png"), $size: 2000px 1000px, $position: 0);
         margin: auto;
         animation: background 10s infinite alternate linear;
 
@@ -143,10 +135,6 @@ header {
             gap: 5rem;
             max-width: 1300px;
 
-            img {
-                width: 100%;
-            }
-
             >div {
                 color: $font-color;
 
@@ -155,17 +143,14 @@ header {
                 }
 
                 .hero_heading {
-                    font-size: 72px;
+                    @include text(72px, 700, left);
                     margin: 0;
                     z-index: 1;
-                    text-align: left;
-                    font-weight: 700;
                 }
 
                 button {
                     margin-top: 2rem;
                     padding: 1rem 4rem;
-                    border-radius: 4px;
                 }
             }
         }
@@ -200,6 +185,11 @@ header {
                     width: fit-content;
                     gap: 0.5rem;
                     cursor: pointer;
+                    transition: all 0.3s;
+
+                    &:hover {
+                        filter: brightness(0.75);
+                    }
 
                     img {
                         height: 100%;
@@ -226,10 +216,6 @@ header {
             gap: 5rem;
             max-width: 1300px;
 
-            img {
-                width: 100%;
-            }
-
             >div {
                 @include display(grid);
                 width: 100%;
@@ -243,10 +229,6 @@ header {
                     &._1_ {
                         border-left: 4px solid $secondary-color;
                     }
-
-                    p {
-                        margin: 0;
-                    }
                 }
             }
         }
@@ -254,9 +236,7 @@ header {
 
     .style {
         @include display(grid, center, center);
-        background-image: url("/img/bg.png");
-        background-repeat: no-repeat;
-        background-size: cover;
+        @include bg($img: url("/img/bg.png"), $repeat: no-repeat, $size: cover);
         color: $font-color;
 
         >div {
@@ -270,10 +250,9 @@ header {
                 @extend %container_tool;
 
                 .text {
+                    @include text(1.125rem, 600);
                     margin: 0;
                     color: #1d1d1f;
-                    font-weight: 600;
-                    font-size: 1.125rem;
                 }
 
                 .content_text {
@@ -306,10 +285,7 @@ header {
                 &.filip,
                 &.martin,
                 &.petr {
-                    background-image: url("/img/profilePhoto.jpg");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: center;
+                    @include bg($img: url("/img/profilePhoto.jpg"), $repeat: no-repeat, $size: cover, $position: center);
                 }
 
                 >div {
@@ -359,9 +335,8 @@ header {
                     gap: 2rem;
 
                     img {
+                        @include elSize(fit-content, 100%);
                         max-width: 5rem;
-                        width: 100%;
-                        height: fit-content;
                     }
 
                     .text {
@@ -374,8 +349,7 @@ header {
                         }
 
                         .job {
-                            font-size: 18px;
-                            font-weight: 600;
+                            @include text(18px, 600, left);
                             color: $font-color-secondary;
                         }
                     }
@@ -423,7 +397,7 @@ header {
                     background-color: $primary-color;
                     font-family: "DM Sans", sans-serif;
                     padding: 14px 16px;
-                    border-radius: 8px;
+                    border-radius: calc($border-radius * 2);
                     min-width: 100%;
                     width: 100%;
                     border: 0;
@@ -457,7 +431,7 @@ header {
                     width: fit-content;
                     cursor: pointer;
                     padding: 1rem 3rem;
-                    border-radius: 4px;
+                    border-radius: $border-radius;
                     color: #1d1d1f;
                     font-weight: 500;
                     min-width: unset;
@@ -471,6 +445,7 @@ header {
 
                 .radio {
                     cursor: pointer;
+                    user-select: none;
                 }
 
                 input[type="radio"] {
