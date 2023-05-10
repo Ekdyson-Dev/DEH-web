@@ -98,7 +98,7 @@ header {
             margin: auto;
             position: sticky;
 
-            >div {
+            > div {
                 @include display(flex, center, center);
                 gap: 1rem;
 
@@ -129,13 +129,13 @@ header {
         margin: auto;
         animation: background 10s infinite alternate linear;
 
-        >div {
+        > div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr;
             gap: 5rem;
             max-width: 1300px;
 
-            >div {
+            > div {
                 color: $font-color;
 
                 p {
@@ -161,7 +161,7 @@ header {
     .about {
         @include display(grid, center, center);
 
-        >div {
+        > div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr 1fr;
             max-width: 1300px;
@@ -210,13 +210,13 @@ header {
         background-color: $tertiary-color;
         scroll-margin-bottom: 15rem;
 
-        >div {
+        > div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr;
             gap: 5rem;
             max-width: 1300px;
 
-            >div {
+            > div {
                 @include display(grid);
                 width: 100%;
                 gap: 2rem;
@@ -239,7 +239,7 @@ header {
         @include bg($img: url("/img/bg.png"), $repeat: no-repeat, $size: cover);
         color: $font-color;
 
-        >div {
+        > div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr 1fr;
             max-width: 1300px;
@@ -267,7 +267,7 @@ header {
         @include display(grid, center, center);
         background-color: $font-color;
 
-        >div {
+        > div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr 1fr;
             max-width: 1300px;
@@ -285,10 +285,22 @@ header {
                 &.filip,
                 &.martin,
                 &.petr {
-                    @include bg($img: url("/img/profilePhoto.jpg"), $repeat: no-repeat, $size: cover, $position: center);
+                    @include bg($repeat: no-repeat, $size: cover, $position: center);
                 }
 
-                >div {
+                &.filip {
+                    background-image: url("/img/profileFilip.png");
+                }
+
+                &.petr {
+                    background-image: url("/img/profilePetr.jpg");
+                }
+
+                &.martin {
+                    background-image: url("/img/profileMartin.jpg");
+                }
+
+                > div {
                     @include display(grid);
                     padding: 2.5rem;
                     background-color: $primary-color-opacity;
@@ -302,7 +314,7 @@ header {
     .review {
         @include display(grid, center, center);
 
-        >div {
+        > div {
             max-width: 1300px;
             padding: 2rem 0;
 
@@ -314,7 +326,7 @@ header {
                     margin: 0;
                 }
 
-                >div {
+                > div {
                     @include display(flex, center, center);
                     gap: 2rem;
 
@@ -370,7 +382,7 @@ header {
             max-width: 1300px;
             margin: auto;
 
-            >div {
+            > div {
                 @include display(grid, center, left);
                 width: fit-content;
                 margin: auto;
@@ -416,7 +428,7 @@ header {
                 .radio_div {
                     margin-top: 8px;
 
-                    >div {
+                    > div {
                         @include display(flex, center, left);
                         gap: 0.5rem;
                     }

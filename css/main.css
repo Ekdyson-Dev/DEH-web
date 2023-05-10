@@ -417,10 +417,18 @@ header .hero > div > div button {
   color: #f7f7f7;
 }
 .content .team > div .container.filip, .content .team > div .container.martin, .content .team > div .container.petr {
-  background-image: url("/img/profilePhoto.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.content .team > div .container.filip {
+  background-image: url("/img/profileFilip.png");
+}
+.content .team > div .container.petr {
+  background-image: url("/img/profilePetr.jpg");
+}
+.content .team > div .container.martin {
+  background-image: url("/img/profileMartin.jpg");
 }
 .content .team > div .container > div {
   display: grid;
