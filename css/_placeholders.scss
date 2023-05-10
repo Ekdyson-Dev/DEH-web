@@ -49,8 +49,7 @@
 
 %scrollbar {
     &::-webkit-scrollbar {
-        width: 0.6rem;
-        height: 0.6rem;
+        @include elSize(0.6rem, 0.6rem);
     }
 
     &::-webkit-scrollbar-track {
@@ -90,5 +89,4 @@
     img {
         padding: 2.5rem 0;
     }
-
 }
