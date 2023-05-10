@@ -125,7 +125,7 @@ header {
     .hero {
         @include elSize(100vh, 100%);
         @include display(flex, center, center);
-        @include bg($img: url("/img/bg.png"), $size: 2000px 1000px, $position: 0);
+        @include bg($img: url("/img/backgrounds/bg.png"), $size: 2000px 1000px, $position: 0);
         margin: auto;
         animation: background 10s infinite alternate linear;
 
@@ -236,7 +236,7 @@ header {
 
     .style {
         @include display(grid, center, center);
-        @include bg($img: url("/img/bg.png"), $repeat: no-repeat, $size: cover);
+        @include bg($img: url("/img/backgrounds/bg.png"), $repeat: no-repeat, $size: cover);
         color: $font-color;
 
         > div {
