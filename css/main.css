@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 /* COLOR VARIABLES */
 /* VARIABLES */
-header nav .navbar > div a {
+main .about > div .container .read_more, header nav .navbar > div a {
   color: #f7f7f7;
   padding-bottom: 0.1em;
   background: linear-gradient(#77ccf7 0 0) 0% 100%/var(--_p, 0%) 0.1em no-repeat;
@@ -13,14 +13,14 @@ header nav .navbar > div a {
   transition: background 0.5s, color 0.2s;
   z-index: 4;
 }
-header nav .navbar > div a:hover {
+main .about > div .container .read_more:hover, header nav .navbar > div a:hover {
   filter: brightness(1);
   --_p: 100%;
   color: #77ccf7;
   cursor: pointer;
 }
 
-.content .contact form > div input[type=radio] {
+main .contact form > div input[type=radio] {
   height: 1.2rem;
   width: 1.2rem;
   margin: 0;
@@ -38,7 +38,7 @@ header nav .navbar > div a:hover {
   place-content: center;
   transition: all 0.3s;
 }
-.content .contact form > div input[type=radio]::before {
+main .contact form > div input[type=radio]::before {
   height: 0.7em;
   width: 0.7em;
   content: "";
@@ -47,7 +47,7 @@ header nav .navbar > div a:hover {
   box-shadow: inset 1em 1em #77ccf7;
   background-color: transparent;
 }
-.content .contact form > div input[type=radio]:checked::before {
+main .contact form > div input[type=radio]:checked::before {
   transform: scale(1);
 }
 
@@ -76,13 +76,13 @@ html::-webkit-color-swatch {
   border-radius: 3px;
 }
 
-.content .team > div .container, .content .style > div .container, .content .about > div .container {
+main .team > div .container, main .style > div .container, main .about > div .container {
   display: grid;
   align-items: space-between;
   align-content: space-between;
   justify-items: center;
   justify-content: center;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.15) 100%);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.426) 0%, rgba(255, 255, 255, 0.238) 100%);
   padding: 2.5rem;
   box-shadow: 0 20px 40px 0 rgba(216, 227, 235, 0.15);
   border-radius: 1rem;
@@ -90,10 +90,10 @@ html::-webkit-color-swatch {
   height: 100%;
   transition: scale 0.3s;
 }
-.content .team > div .container:hover, .content .style > div .container:hover, .content .about > div .container:hover {
+main .team > div .container:hover, main .style > div .container:hover, main .about > div .container:hover {
   scale: 1.03;
 }
-.content .team > div .container img, .content .style > div .container img, .content .about > div .container img {
+main .team > div .container img, main .style > div .container img, main .about > div .container img {
   padding: 2.5rem 0;
 }
 
@@ -274,14 +274,14 @@ header .hero > div > div button {
   padding: 1rem 4rem;
 }
 
-.content .about {
+main .about {
   display: grid;
   align-items: center;
   align-content: center;
   justify-items: center;
   justify-content: center;
 }
-.content .about > div {
+main .about > div {
   display: grid;
   align-items: center;
   align-content: center;
@@ -291,40 +291,40 @@ header .hero > div > div button {
   max-width: 1300px;
   gap: 5rem;
 }
-.content .about > div .container {
+main .about > div .container {
   box-shadow: 0 20px 40px 0 rgba(216, 227, 235, 0.776);
 }
-.content .about > div .container .sub_heading {
+main .about > div .container .sub_heading {
   margin: 2.5rem 0 1rem 0;
 }
-.content .about > div .container .text {
+main .about > div .container .text {
   color: #4c4c4c;
 }
-.content .about > div .container .read_more {
+main .about > div .container .read_more {
   display: flex;
   align-items: center;
   align-content: center;
-  justify-items: left;
-  justify-content: left;
-  margin-top: 1rem;
+  justify-items: center;
+  justify-content: center;
+  height: -moz-fit-content;
+  height: fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  text-decoration: none;
+  color: #1d1d1f;
+  margin-top: 1rem;
+  width: fit-content;
   gap: 0.5rem;
-  cursor: pointer;
-  transition: all 0.3s;
 }
-.content .about > div .container .read_more:hover {
-  filter: brightness(0.75);
-}
-.content .about > div .container .read_more img {
+main .about > div .container .read_more img {
   height: 100%;
   max-width: 24px;
   padding: 0;
 }
-.content .about > div .container .read_more p {
+main .about > div .container .read_more p {
   font-weight: 500;
 }
-.content .benefits {
+main .benefits {
   display: flex;
   align-items: center;
   align-content: center;
@@ -333,7 +333,7 @@ header .hero > div > div button {
   background-color: #606470;
   scroll-margin-bottom: 15rem;
 }
-.content .benefits > div {
+main .benefits > div {
   display: grid;
   align-items: center;
   align-content: center;
@@ -343,20 +343,20 @@ header .hero > div > div button {
   gap: 5rem;
   max-width: 1300px;
 }
-.content .benefits > div > div {
+main .benefits > div > div {
   display: grid;
   width: 100%;
   gap: 2rem;
 }
-.content .benefits > div > div .container {
+main .benefits > div > div .container {
   background-color: #f7f7f7;
   padding: 2.5rem;
   width: 100%;
 }
-.content .benefits > div > div .container._1_ {
+main .benefits > div > div .container._1_ {
   border-left: 4px solid #77ccf7;
 }
-.content .style {
+main .style {
   display: grid;
   align-items: center;
   align-content: center;
@@ -367,7 +367,7 @@ header .hero > div > div button {
   background-size: cover;
   color: #f7f7f7;
 }
-.content .style > div {
+main .style > div {
   display: grid;
   align-items: center;
   align-content: center;
@@ -378,17 +378,17 @@ header .hero > div > div button {
   gap: 5rem;
   height: 100%;
 }
-.content .style > div .container .text {
+main .style > div .container .text {
   font-size: 1.125rem;
   font-weight: 600;
   margin: 0;
   color: #1d1d1f;
 }
-.content .style > div .container .content_text {
+main .style > div .container .content_text {
   margin-top: 0.5rem;
   color: #4c4c4c;
 }
-.content .team {
+main .team {
   display: grid;
   align-items: center;
   align-content: center;
@@ -396,7 +396,7 @@ header .hero > div > div button {
   justify-content: center;
   background-color: #f7f7f7;
 }
-.content .team > div {
+main .team > div {
   display: grid;
   align-items: center;
   align-content: center;
@@ -407,62 +407,62 @@ header .hero > div > div button {
   gap: 5rem;
   height: 100%;
 }
-.content .team > div .container {
+main .team > div .container {
   display: flex;
   align-items: flex-end;
   align-content: flex-end;
   justify-items: center;
   justify-content: center;
-  box-shadow: 0 20px 40px 0 rgba(189, 200, 209, 0.935);
+  box-shadow: 0 20px 40px 0 rgba(103, 111, 117, 0.654);
   padding: 0;
   min-height: 500px;
   color: #f7f7f7;
 }
-.content .team > div .container.filip, .content .team > div .container.martin, .content .team > div .container.petr {
+main .team > div .container.filip, main .team > div .container.martin, main .team > div .container.petr {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.content .team > div .container.filip {
-  background-image: url("/img/profileFilip.png");
+main .team > div .container.filip {
+  background-image: url("/img/filipImg.jpeg");
 }
-.content .team > div .container.petr {
-  background-image: url("/img/profilePetr.jpg");
+main .team > div .container.petr {
+  background-image: url("/img/petrImg.jpg");
 }
-.content .team > div .container.martin {
-  background-image: url("/img/profileMartin.jpg");
+main .team > div .container.martin {
+  background-image: url("/img/martinImg.jpg");
 }
-.content .team > div .container > div {
+main .team > div .container > div {
   display: grid;
   padding: 2.5rem;
   background-color: rgba(50, 54, 67, 0.6078431373);
   border-radius: 0 0 1rem 1rem;
-  -webkit-backdrop-filter: contrast(180%);
-          backdrop-filter: contrast(180%);
+  -webkit-backdrop-filter: contrast(75%);
+          backdrop-filter: contrast(75%);
 }
-.content .review {
+main .review {
   display: grid;
   align-items: center;
   align-content: center;
   justify-items: center;
   justify-content: center;
 }
-.content .review > div {
+main .review > div {
   max-width: 1300px;
   padding: 2rem 0;
 }
-.content .review > div .header {
+main .review > div .header {
   display: flex;
   align-items: center;
   align-content: center;
   justify-items: space-between;
   justify-content: space-between;
 }
-.content .review > div .header .heading {
+main .review > div .header .heading {
   text-align: left;
   margin: 0;
 }
-.content .review > div .header > div {
+main .review > div .header > div {
   display: flex;
   align-items: center;
   align-content: center;
@@ -470,46 +470,46 @@ header .hero > div > div button {
   justify-content: center;
   gap: 2rem;
 }
-.content .review > div .header > div img {
+main .review > div .header > div img {
   background-color: transparent;
   padding: 0;
   cursor: pointer;
 }
-.content .review > div .slick_slider {
+main .review > div .slick_slider {
   margin-top: 4rem;
   padding: 0 1rem;
 }
-.content .review > div .slick_slider .content_msg {
+main .review > div .slick_slider .content_msg {
   display: flex;
   gap: 2rem;
 }
-.content .review > div .slick_slider .content_msg img {
+main .review > div .slick_slider .content_msg img {
   height: -moz-fit-content;
   height: fit-content;
   width: 100%;
   max-width: 5rem;
 }
-.content .review > div .slick_slider .content_msg .text {
+main .review > div .slick_slider .content_msg .text {
   display: grid;
   padding-right: 9rem;
 }
-.content .review > div .slick_slider .content_msg .text .msg {
+main .review > div .slick_slider .content_msg .text .msg {
   margin: 0 0 2.5rem 0;
   font-size: 20px;
 }
-.content .review > div .slick_slider .content_msg .text .job {
+main .review > div .slick_slider .content_msg .text .job {
   font-size: 18px;
   font-weight: 600;
   text-align: left;
   color: #4c4c4c;
 }
-.content .contact {
+main .contact {
   background-color: #606470;
 }
-.content .contact .heading {
+main .contact .heading {
   color: #f7f7f7;
 }
-.content .contact form {
+main .contact form {
   display: grid;
   align-items: center;
   align-content: center;
@@ -518,7 +518,7 @@ header .hero > div > div button {
   max-width: 1300px;
   margin: auto;
 }
-.content .contact form > div {
+main .contact form > div {
   display: grid;
   align-items: center;
   align-content: center;
@@ -529,10 +529,10 @@ header .hero > div > div button {
   margin: auto;
   gap: 1rem;
 }
-.content .contact form > div .grid {
+main .contact form > div .grid {
   width: 100%;
 }
-.content .contact form > div .form_flex_div {
+main .contact form > div .form_flex_div {
   display: flex;
   align-items: center;
   align-content: center;
@@ -541,13 +541,13 @@ header .hero > div > div button {
   gap: 1rem;
   width: 100%;
 }
-.content .contact form > div label {
+main .contact form > div label {
   font-size: 1rem;
   color: #f7f7f7;
   cursor: pointer;
 }
-.content .contact form > div textarea,
-.content .contact form > div .input {
+main .contact form > div textarea,
+main .contact form > div .input {
   background-color: #323643;
   font-family: "DM Sans", sans-serif;
   padding: 14px 16px;
@@ -561,19 +561,19 @@ header .hero > div > div button {
   margin-top: 8px;
   color: #f7f7f7;
 }
-.content .contact form > div textarea::-moz-placeholder, .content .contact form > div .input::-moz-placeholder {
+main .contact form > div textarea::-moz-placeholder, main .contact form > div .input::-moz-placeholder {
   color: #f7f7f7;
   opacity: 0.6;
 }
-.content .contact form > div textarea::placeholder,
-.content .contact form > div .input::placeholder {
+main .contact form > div textarea::placeholder,
+main .contact form > div .input::placeholder {
   color: #f7f7f7;
   opacity: 0.6;
 }
-.content .contact form > div .radio_div {
+main .contact form > div .radio_div {
   margin-top: 8px;
 }
-.content .contact form > div .radio_div > div {
+main .contact form > div .radio_div > div {
   display: flex;
   align-items: center;
   align-content: center;
@@ -581,11 +581,11 @@ header .hero > div > div button {
   justify-content: left;
   gap: 0.5rem;
 }
-.content .contact form > div textarea {
+main .contact form > div textarea {
   min-width: 560px;
   height: 120px;
 }
-.content .contact form > div .submit {
+main .contact form > div .submit {
   width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
@@ -597,19 +597,19 @@ header .hero > div > div button {
   background-color: #77ccf7;
   transition: all 0.3s;
 }
-.content .contact form > div .submit:hover {
+main .contact form > div .submit:hover {
   filter: brightness(0.75);
 }
-.content .contact form > div .radio {
+main .contact form > div .radio {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-.content .contact form > div input[type=radio] {
+main .contact form > div input[type=radio] {
   border-radius: 50%;
 }
-.content .contact form > div input[type=radio]::before {
+main .contact form > div input[type=radio]::before {
   border-radius: inherit;
 }
 
