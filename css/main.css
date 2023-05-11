@@ -679,14 +679,24 @@ main .team > div .container > div .name_links {
 main .team > div .container > div .name_links .name_text {
   font-weight: bold;
 }
-main .team > div .container > div .name_links img {
+main .team > div .container > div .name_links a {
   height: 1.5rem;
   width: 1.5rem;
   padding: 0;
-  background-color: #000000;
-  border-radius: 50%;
+  background-color: #f7f7f7;
+  -webkit-mask-image: url("/img/icons/githubIcon.png");
+  mask-image: url("/img/icons/githubIcon.png");
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transition: background-color 0.3s;
+}
+main .team > div .container > div .name_links a:hover {
+  background-color: #a3a3a3;
 }
 main .team > div .container > div .content_text {
+  margin-top: 0.5rem;
   font-size: 0.875rem;
 }
 main .review {
