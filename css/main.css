@@ -4,7 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 /* COLOR VARIABLES */
 /* VARIABLES */
-main .about > div .container .read_more, header nav .navbar > div a {
+/* BREAKPOINTS */
+main .about > div .container .read_more, header nav .navbar .links a {
   color: #f7f7f7;
   padding-bottom: 0.1em;
   background: linear-gradient(#77ccf7 0 0) 0% 100%/var(--_p, 0%) 0.1em no-repeat;
@@ -13,7 +14,7 @@ main .about > div .container .read_more, header nav .navbar > div a {
   transition: background 0.5s, color 0.2s;
   z-index: 4;
 }
-main .about > div .container .read_more:hover, header nav .navbar > div a:hover {
+main .about > div .container .read_more:hover, header nav .navbar .links a:hover {
   filter: brightness(1);
   --_p: 100%;
   color: #77ccf7;
@@ -88,7 +89,7 @@ main .team > div .container, main .style > div .container, main .about > div .co
   border-radius: 1rem;
   scale: 1;
   height: 100%;
-  transition: scale 0.3s;
+  transition: all 0.4s;
 }
 main .team > div .container:hover, main .style > div .container:hover, main .about > div .container:hover {
   scale: 1.03;
@@ -99,7 +100,7 @@ main .team > div .container img, main .style > div .container img, main .about >
 
 @keyframes background {
   100% {
-    background-size: 4000px 1000px;
+    background-size: 6000px 1300px;
   }
 }
 *,
@@ -165,6 +166,13 @@ img {
   margin: 0;
   margin-bottom: 4rem;
 }
+@media screen and (max-width: 1024px) {
+  .heading {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
 
 .sub_heading {
   font-size: 24px;
@@ -172,11 +180,83 @@ img {
   text-align: left;
   margin: 0;
 }
+@media screen and (max-width: 480px) {
+  .sub_heading {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+  }
+}
 
 section {
   overflow: hidden;
-  padding: 6rem 0;
+  padding: 6rem 3rem;
   min-height: 70vh;
+}
+@media screen and (max-width: 480px) {
+  section {
+    padding: 6rem 1rem;
+  }
+}
+
+.hamburger {
+  height: 24px;
+  width: 32px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  display: none;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  margin: 0;
+  align-self: center;
+  z-index: 2;
+}
+@media screen and (max-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+}
+.hamburger span {
+  height: 4px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  background: #f7f7f7;
+  border-radius: 4px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+.hamburger span:nth-child(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+.hamburger span:nth-child(2) {
+  top: 10px;
+  transform-origin: left center;
+}
+.hamburger span:nth-child(3) {
+  top: 20px;
+  transform-origin: left center;
+}
+
+.hamburger.open span:nth-child(1) {
+  transform: rotate(39deg);
+  top: 0px;
+  left: 1px;
+}
+.hamburger.open span:nth-child(2) {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-39deg);
+  top: 20px;
+  left: 1px;
 }
 
 header {
@@ -202,8 +282,9 @@ header nav .navbar {
   max-width: 1300px;
   margin: auto;
   position: sticky;
+  padding: 0 2rem;
 }
-header nav .navbar > div {
+header nav .navbar .links {
   display: flex;
   align-items: center;
   align-content: center;
@@ -211,7 +292,25 @@ header nav .navbar > div {
   justify-content: center;
   gap: 1rem;
 }
-header nav .navbar > div a {
+@media screen and (max-width: 1024px) {
+  header nav .navbar .links {
+    height: 100vh;
+    width: 0;
+    background-color: #323643;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.4s;
+    flex-direction: column;
+  }
+  header nav .navbar .links a {
+    font-size: 32px;
+    font-weight: 500;
+    display: none !important;
+    white-space: nowrap;
+  }
+}
+header nav .navbar .links a {
   display: flex;
   align-items: center;
   align-content: center;
@@ -224,13 +323,18 @@ header nav .navbar > div a {
   text-decoration: none;
   color: #f7f7f7;
 }
+header nav .navbar .links.open {
+  height: 100vh;
+  width: 100vw;
+}
+header nav .navbar .links.open a {
+  display: flex !important;
+}
 header nav .navbar .logo {
   height: 100%;
+  width: auto;
   padding: 0.5rem 0;
-}
-header nav .navbar .logo img {
-  max-height: -moz-fit-content;
-  max-height: fit-content;
+  z-index: 2;
 }
 header .hero {
   height: 100vh;
@@ -241,10 +345,11 @@ header .hero {
   justify-items: center;
   justify-content: center;
   background-image: url("/img/backgrounds/bg.png");
-  background-position: 0;
-  background-size: 2000px 1000px;
+  background-position: -500px;
+  background-size: 4096px 2160px;
   margin: auto;
   animation: background 10s infinite alternate linear;
+  padding: 0;
 }
 header .hero > div {
   display: grid;
@@ -256,8 +361,25 @@ header .hero > div {
   gap: 5rem;
   max-width: 1300px;
 }
+@media screen and (max-width: 720px) {
+  header .hero > div {
+    grid-template-columns: 1fr;
+  }
+  header .hero > div img {
+    display: none;
+  }
+}
 header .hero > div > div {
   color: #f7f7f7;
+}
+@media screen and (max-width: 720px) {
+  header .hero > div > div {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+  }
 }
 header .hero > div > div p {
   font-weight: 500;
@@ -268,6 +390,27 @@ header .hero > div > div .hero_heading {
   text-align: left;
   margin: 0;
   z-index: 1;
+}
+@media screen and (max-width: 1024px) {
+  header .hero > div > div .hero_heading {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 720px) {
+  header .hero > div > div .hero_heading {
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  header .hero > div > div .hero_heading {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+  }
 }
 header .hero > div > div button {
   margin-top: 2rem;
@@ -290,6 +433,27 @@ main .about > div {
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 1300px;
   gap: 5rem;
+}
+@media screen and (max-width: 1440px) {
+  main .about > div {
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .about > div {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main .about > div {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .about > div {
+    max-width: 400px;
+  }
 }
 main .about > div .container {
   box-shadow: 0 20px 40px 0 rgba(216, 227, 235, 0.776);
@@ -332,6 +496,7 @@ main .benefits {
   justify-content: center;
   background-color: #606470;
   scroll-margin-bottom: 15rem;
+  width: 100%;
 }
 main .benefits > div {
   display: grid;
@@ -343,6 +508,15 @@ main .benefits > div {
   gap: 5rem;
   max-width: 1300px;
 }
+@media screen and (max-width: 720px) {
+  main .benefits > div {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  main .benefits > div img {
+    display: none;
+  }
+}
 main .benefits > div > div {
   display: grid;
   width: 100%;
@@ -353,8 +527,14 @@ main .benefits > div > div .container {
   padding: 2.5rem;
   width: 100%;
 }
+@media screen and (max-width: 720px) {
+  main .benefits > div > div .container {
+    padding: 2rem;
+  }
+}
 main .benefits > div > div .container._1_ {
-  border-left: 4px solid #77ccf7;
+  border-left: 8px solid #77ccf7;
+  border-radius: 1rem;
 }
 main .style {
   display: grid;
@@ -378,6 +558,22 @@ main .style > div {
   gap: 5rem;
   height: 100%;
 }
+@media screen and (max-width: 1440px) {
+  main .style > div {
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .style > div {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main .style > div {
+    max-width: 400px;
+  }
+}
 main .style > div .container .text {
   font-size: 1.125rem;
   font-weight: 600;
@@ -395,6 +591,7 @@ main .team {
   justify-items: center;
   justify-content: center;
   background-color: #f7f7f7;
+  width: 100%;
 }
 main .team > div {
   display: grid;
@@ -407,6 +604,22 @@ main .team > div {
   gap: 5rem;
   height: 100%;
 }
+@media screen and (max-width: 1440px) {
+  main .team > div {
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .team > div {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main .team > div {
+    max-width: 400px;
+  }
+}
 main .team > div .container {
   display: flex;
   align-items: flex-end;
@@ -417,6 +630,24 @@ main .team > div .container {
   padding: 0;
   min-height: 500px;
   color: #f7f7f7;
+}
+@media screen and (max-width: 1024px) {
+  main .team > div .container {
+    min-height: 700px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main .team > div .container {
+    max-width: 400px;
+    min-height: 500px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .team > div .container {
+    width: 100%;
+    height: 100%;
+  }
 }
 main .team > div .container.filip, main .team > div .container.martin, main .team > div .container.petr {
   background-repeat: no-repeat;
@@ -435,6 +666,7 @@ main .team > div .container.martin {
 main .team > div .container > div {
   display: grid;
   padding: 2.5rem;
+  width: 100%;
   background-color: rgba(50, 54, 67, 0.6078431373);
   border-radius: 0 0 1rem 1rem;
   -webkit-backdrop-filter: contrast(75%);
@@ -449,7 +681,12 @@ main .review {
 }
 main .review > div {
   max-width: 1300px;
-  padding: 2rem 0;
+  padding: 3rem;
+}
+@media screen and (max-width: 1300px) {
+  main .review > div {
+    max-width: 100vw;
+  }
 }
 main .review > div .header {
   display: flex;
@@ -457,6 +694,7 @@ main .review > div .header {
   align-content: center;
   justify-items: space-between;
   justify-content: space-between;
+  gap: 1rem;
 }
 main .review > div .header .heading {
   text-align: left;
@@ -478,10 +716,16 @@ main .review > div .header > div img {
 main .review > div .slick_slider {
   margin-top: 4rem;
   padding: 0 1rem;
+  cursor: grab;
 }
 main .review > div .slick_slider .content_msg {
   display: flex;
   gap: 2rem;
+}
+@media screen and (max-width: 480px) {
+  main .review > div .slick_slider .content_msg {
+    flex-direction: column;
+  }
 }
 main .review > div .slick_slider .content_msg img {
   height: -moz-fit-content;
@@ -492,6 +736,11 @@ main .review > div .slick_slider .content_msg img {
 main .review > div .slick_slider .content_msg .text {
   display: grid;
   padding-right: 9rem;
+}
+@media screen and (max-width: 1024px) {
+  main .review > div .slick_slider .content_msg .text {
+    padding-right: 0rem;
+  }
 }
 main .review > div .slick_slider .content_msg .text .msg {
   margin: 0 0 2.5rem 0;
@@ -513,21 +762,18 @@ main .contact form {
   display: grid;
   align-items: center;
   align-content: center;
-  justify-items: center;
-  justify-content: center;
   max-width: 1300px;
   margin: auto;
+  width: 100%;
+  max-width: 800px;
 }
 main .contact form > div {
   display: grid;
   align-items: center;
   align-content: center;
-  justify-items: left;
-  justify-content: left;
-  width: -moz-fit-content;
-  width: fit-content;
   margin: auto;
   gap: 1rem;
+  width: 100%;
 }
 main .contact form > div .grid {
   width: 100%;
@@ -539,7 +785,11 @@ main .contact form > div .form_flex_div {
   justify-items: left;
   justify-content: left;
   gap: 1rem;
-  width: 100%;
+}
+@media screen and (max-width: 720px) {
+  main .contact form > div .form_flex_div {
+    flex-direction: column;
+  }
 }
 main .contact form > div label {
   font-size: 1rem;
@@ -572,6 +822,7 @@ main .contact form > div .input::placeholder {
 }
 main .contact form > div .radio_div {
   margin-top: 8px;
+  flex-direction: row;
 }
 main .contact form > div .radio_div > div {
   display: flex;
@@ -582,7 +833,7 @@ main .contact form > div .radio_div > div {
   gap: 0.5rem;
 }
 main .contact form > div textarea {
-  min-width: 560px;
+  width: 100%;
   height: 120px;
 }
 main .contact form > div .submit {

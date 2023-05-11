@@ -22,12 +22,17 @@
                 <a class="logo" href="/">
                     <img class="logo" src="/img/backgrounds/logo.webp" alt="Logo" />
                 </a>
-                <div>
-                    <a href="#about">About app</a>
-                    <a href="#benefits">Benefits</a>
-                    <a href="#team">Our team</a>
-                    <a href="#testimonials">Testimonials</a>
-                    <a href="#contact">Registration</a>
+                <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="links" id="links">
+                    <a onclick="toggleMenuDis()" href="#about">About app</a>
+                    <a onclick="toggleMenuDis()" href="#benefits">Benefits</a>
+                    <a onclick="toggleMenuDis()" href="#team">Our team</a>
+                    <a onclick="toggleMenuDis()" href="#testimonials">Testimonials</a>
+                    <a onclick="toggleMenuDis()" href="#contact">Registration</a>
                 </div>
             </div>
         </nav>
@@ -45,8 +50,8 @@
     <main>
         <section class="about" id="about">
             <h1 data-aos="fade-up" class="heading">The simplest educational system</h1>
-            <div data-aos="fade-up">
-                <div class="container">
+            <div>
+                <div class="container" data-aos="fade-up">
                     <img src="img/pictures/flexibilityImg.svg" alt="Flexibility icon" />
                     <div>
                         <p class="sub_heading">Flexibility</p>
@@ -57,7 +62,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" data-aos="fade-up">
                     <img src="img/pictures/accessibilityImg.svg" alt="Accessibility icon" />
                     <div>
                         <p class="sub_heading">Accessibility</p>
@@ -68,7 +73,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" data-aos="fade-up">
                     <img src="img/pictures/digitalizationImg.svg" alt="Digitalization icon" />
                     <div>
                         <p class="sub_heading">Digitalization</p>
@@ -106,8 +111,8 @@
         </section>
         <section class="style">
             <h1 data-aos="fade-up" class="heading">Customize your app</h1>
-            <div data-aos="fade-up">
-                <div class="container">
+            <div>
+                <div class="container" data-aos="fade-up">
                     <p class="sub_heading">Adjust the color scheme</p>
                     <img src="img/pictures/colorSchemeImg.svg" alt="Color scheme icon" />
                     <div>
@@ -115,7 +120,7 @@
                         <p class="content_text">You can use the preset colors, or you can customize them yourself. Customize the environment to your liking.</p>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" data-aos="fade-up">
                     <p class="sub_heading">Manage roles and groups</p>
                     <img src="img/pictures/rolesGroupsImg.svg" alt="Roles and groups icon" />
                     <div>
@@ -123,7 +128,7 @@
                         <p class="content_text">You can set access roles and group users. Different groups can then have access to different articles.</p>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" data-aos="fade-up">
                     <p class="sub_heading">Create activities</p>
                     <img src="img/pictures/activitiesImg.svg" alt="Activities icon" />
                     <div>
@@ -135,22 +140,22 @@
         </section>
         <section class="team" id="team">
             <h1 class="heading" data-aos="fade-up">Our team</h1>
-            <div data-aos="fade-up">
-                <div class="container filip">
+            <div>
+                <div class="container filip" data-aos="fade-up">
                     <div>
-                        <p class="text">DESIGNER</p>
+                        <p class="text">DESIGNER, FRONTEND</p>
                         <p class="text">Filip Beneš</p>
                         <p class="content_text">Lorem ipsum dolor sit amet, consectetuer adipiscing amet elit.</p>
                     </div>
                 </div>
-                <div class="container petr">
+                <div class="container petr" data-aos="fade-up">
                     <div>
                         <p class="text">FULLSTACK</p>
                         <p class="text">Petr Chalupa</p>
                         <p class="content_text">Lorem ipsum dolor sit amet, consectetuer adipiscing amet elit.</p>
                     </div>
                 </div>
-                <div class="container martin">
+                <div class="container martin" data-aos="fade-up">
                     <div>
                         <div>
                             <p class="text">BACKEND</p>
@@ -262,6 +267,31 @@
         });
 
         AOS.init();
+
+        function toggleMenu() {
+            let elHam = document.getElementById("hamburger");
+            let elLinks = document.getElementById("links");
+            if (elHam.className == "hamburger open") {
+                elHam.classList.remove("open");
+                elLinks.classList.remove("open");
+            }
+            else {
+                elHam.classList.add("open");
+                elLinks.classList.add("open");
+            }
+        }
+
+        function toggleMenuDis() {
+            let elHam = document.getElementById("hamburger");
+            let elLinks = document.getElementById("links");
+            setTimeout(function () {
+                if (elHam.className == "hamburger open") {
+                    elHam.classList.remove("open");
+                    elLinks.classList.remove("open");
+                }
+            }, 200);
+
+        }
     </script>
 </body>
 
