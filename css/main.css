@@ -672,6 +672,23 @@ main .team > div .container > div {
   -webkit-backdrop-filter: contrast(75%);
           backdrop-filter: contrast(75%);
 }
+main .team > div .container > div .name_links {
+  display: flex;
+  justify-content: space-between;
+}
+main .team > div .container > div .name_links .name_text {
+  font-weight: bold;
+}
+main .team > div .container > div .name_links img {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 0;
+  background-color: #000000;
+  border-radius: 50%;
+}
+main .team > div .container > div .content_text {
+  font-size: 0.875rem;
+}
 main .review {
   display: grid;
   align-items: center;

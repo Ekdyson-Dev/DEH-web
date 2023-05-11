@@ -226,7 +226,7 @@ header {
         animation: background 10s infinite alternate linear;
         padding: 0;
 
-        >div {
+        > div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr;
             gap: 5rem;
@@ -240,12 +240,11 @@ header {
                 }
             }
 
-            >div {
+            > div {
                 color: $font-color;
 
                 @include max-width($device-S) {
                     @include display(grid, center, center);
-
                 }
 
                 p {
@@ -283,7 +282,7 @@ main {
     .about {
         @include display(grid, center, center);
 
-        >div {
+        > div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr 1fr;
             max-width: $section-width;
@@ -348,7 +347,7 @@ main {
         scroll-margin-bottom: 15rem;
         width: 100%;
 
-        >div {
+        > div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr;
             gap: 5rem;
@@ -363,7 +362,7 @@ main {
                 }
             }
 
-            >div {
+            > div {
                 @include display(grid);
                 width: 100%;
                 gap: 2rem;
@@ -391,7 +390,7 @@ main {
         @include bg($img: url("/img/backgrounds/bg.png"), $repeat: no-repeat, $size: cover);
         color: $font-color;
 
-        >div {
+        > div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr 1fr;
             max-width: $section-width;
@@ -433,7 +432,7 @@ main {
         background-color: $font-color;
         width: 100%;
 
-        >div {
+        > div {
             @include display(grid, center, center);
             grid-template-columns: 1fr 1fr 1fr;
             max-width: $section-width;
@@ -494,13 +493,33 @@ main {
                     background-image: url("/img/martinImg.jpg");
                 }
 
-                >div {
+                > div {
                     @include display(grid);
                     padding: 2.5rem;
                     width: 100%;
                     background-color: $primary-color-opacity;
                     border-radius: 0 0 1rem 1rem;
                     backdrop-filter: contrast(75%);
+
+                    .name_links {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .name_text {
+                            font-weight: bold;
+                        }
+
+                        img {
+                            @include elSize(1.5rem, 1.5rem);
+                            padding: 0;
+                            background-color: #000000;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .content_text {
+                        font-size: 0.875rem;
+                    }
                 }
             }
         }
@@ -509,7 +528,7 @@ main {
     .review {
         @include display(grid, center, center);
 
-        >div {
+        > div {
             max-width: $section-width;
             padding: 3rem;
 
@@ -526,7 +545,7 @@ main {
                     margin: 0;
                 }
 
-                >div {
+                > div {
                     @include display(flex, center, center);
                     gap: 2rem;
 
@@ -564,7 +583,6 @@ main {
                             padding-right: 0rem;
                         }
 
-
                         .msg {
                             margin: 0 0 2.5rem 0;
                             font-size: 20px;
@@ -594,7 +612,7 @@ main {
             width: 100%;
             max-width: 800px;
 
-            >div {
+            > div {
                 @include display(grid, center, null);
                 margin: auto;
                 gap: 1rem;
@@ -611,7 +629,6 @@ main {
                     @include max-width($device-S) {
                         flex-direction: column;
                     }
-
                 }
 
                 label {
@@ -645,7 +662,7 @@ main {
                     margin-top: 8px;
                     flex-direction: row;
 
-                    >div {
+                    > div {
                         @include display(flex, center, left);
                         gap: 0.5rem;
                     }
