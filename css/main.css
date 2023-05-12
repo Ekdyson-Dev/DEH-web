@@ -892,8 +892,24 @@ main .contact form > div input[type=radio]::before {
 }
 
 footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
   background-color: #323643;
   color: #f7f7f7;
-  padding: 3rem;
+  padding: 1.5rem 3rem;
   text-align: center;
+}
+footer .link_github {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #f7f7f7;
+  margin: 0.25rem auto 0 auto;
+  -webkit-mask-image: url("/img/icons/githubIcon.png");
+  mask-image: url("/img/icons/githubIcon.png");
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */
