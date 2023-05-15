@@ -222,7 +222,7 @@ header {
     .hero {
         @include elSize(100vh, 100%);
         @include display(flex, center, center);
-        @include bg($img: url("./img/backgrounds/bg.png"), $size: 4096px 2160px, $position: -500px);
+        @include bg($img: url("../img/backgrounds/bg.png"), $size: 4096px 2160px, $position: -500px);
         margin: auto;
         animation: background 10s infinite alternate linear;
         padding: 0;
@@ -388,7 +388,7 @@ main {
 
     .style {
         @include display(grid, center, center);
-        @include bg($img: url("./img/backgrounds/bg.png"), $repeat: no-repeat, $size: cover);
+        @include bg($img: url("../img/backgrounds/bg.png"), $repeat: no-repeat, $size: cover);
         color: $font-color;
 
         > div {
@@ -483,15 +483,15 @@ main {
                 }
 
                 &.filip {
-                    background-image: url("./img/filipImg.jpeg");
+                    background-image: url("../img/filipImg.jpeg");
                 }
 
                 &.petr {
-                    background-image: url("./img/petrImg.jpg");
+                    background-image: url("../img/petrImg.jpg");
                 }
 
                 &.martin {
-                    background-image: url("./img/martinImg.jpg");
+                    background-image: url("../img/martinImg.jpg");
                 }
 
                 > div {
@@ -514,8 +514,8 @@ main {
                             @include elSize(1.5rem, 1.5rem);
                             padding: 0;
                             background-color: $font-color;
-                            -webkit-mask-image: url("./img/icons/githubIcon.png");
-                            mask-image: url("./img/icons/githubIcon.png");
+                            -webkit-mask-image: url("../img/icons/githubIcon.png");
+                            mask-image: url("../img/icons/githubIcon.png");
                             // https://e7.pngegg.com/pngimages/633/439/png-clipart-github-computer-icons-web-development-logo-github-mammal-cat-like-mammal.png
                             -webkit-mask-size: 100%;
                             mask-size: 100%;
@@ -734,8 +734,8 @@ footer {
         @include elSize(1.5rem, 1.5rem);
         background-color: $font-color;
         margin: 0.25rem auto 0 auto;
-        -webkit-mask-image: url("./img/icons/githubIcon.png");
-        mask-image: url("./img/icons/githubIcon.png");
+        -webkit-mask-image: url("../img/icons/githubIcon.png");
+        mask-image: url("../img/icons/githubIcon.png");
         // https://e7.pngegg.com/pngimages/633/439/png-clipart-github-computer-icons-web-development-logo-github-mammal-cat-like-mammal.png
         -webkit-mask-size: 100%;
         mask-size: 100%;
