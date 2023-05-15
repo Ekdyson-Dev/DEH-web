@@ -344,7 +344,7 @@ header .hero {
   align-content: center;
   justify-items: center;
   justify-content: center;
-  background-image: url("/img/backgrounds/bg.png");
+  background-image: url("./img/backgrounds/bg.png");
   background-position: -500px;
   background-size: 4096px 2160px;
   margin: auto;
@@ -542,7 +542,7 @@ main .style {
   align-content: center;
   justify-items: center;
   justify-content: center;
-  background-image: url("/img/backgrounds/bg.png");
+  background-image: url("./img/backgrounds/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: #f7f7f7;
@@ -655,13 +655,13 @@ main .team > div .container.filip, main .team > div .container.martin, main .tea
   background-size: cover;
 }
 main .team > div .container.filip {
-  background-image: url("/img/filipImg.jpeg");
+  background-image: url("./img/filipImg.jpeg");
 }
 main .team > div .container.petr {
-  background-image: url("/img/petrImg.jpg");
+  background-image: url("./img/petrImg.jpg");
 }
 main .team > div .container.martin {
-  background-image: url("/img/martinImg.jpg");
+  background-image: url("./img/martinImg.jpg");
 }
 main .team > div .container > div {
   display: grid;
@@ -684,8 +684,8 @@ main .team > div .container > div .name_links a {
   width: 1.5rem;
   padding: 0;
   background-color: #f7f7f7;
-  -webkit-mask-image: url("/img/icons/githubIcon.png");
-  mask-image: url("/img/icons/githubIcon.png");
+  -webkit-mask-image: url("./img/icons/githubIcon.png");
+  mask-image: url("./img/icons/githubIcon.png");
   -webkit-mask-size: 100%;
   mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
@@ -906,8 +906,8 @@ footer .link_github {
   width: 1.5rem;
   background-color: #f7f7f7;
   margin: 0.25rem auto 0 auto;
-  -webkit-mask-image: url("/img/icons/githubIcon.png");
-  mask-image: url("/img/icons/githubIcon.png");
+  -webkit-mask-image: url("./img/icons/githubIcon.png");
+  mask-image: url("./img/icons/githubIcon.png");
   -webkit-mask-size: 100%;
   mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
