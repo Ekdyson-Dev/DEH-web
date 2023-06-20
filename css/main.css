@@ -779,6 +779,21 @@ main .review > div .slick_slider .content_msg .text .job {
   text-align: left;
   color: #4c4c4c;
 }
+main .soc {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+main .soc p {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
 main .contact {
   background-color: #606470;
 }

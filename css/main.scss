@@ -611,6 +611,19 @@ main {
         }
     }
 
+    .soc {
+        @include display(grid, center, center);
+        background-color: $font-color;
+
+        p {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+    }
+
     .contact {
         background-color: $tertiary-color;
 
