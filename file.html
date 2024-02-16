@@ -40,7 +40,7 @@
                     if (!fileName) displayError();
                     if (!fileName.endsWith(".md")) fileName += ".md";
 
-                    const file = await fetch(`/files/${fileName.toLowerCase()}`, { method: "GET" });
+                    const file = await fetch(`./files/${fileName.toLowerCase()}`, { method: "GET" });
                     if (!file.ok) return displayError();
 
                     document.getElementById("file").innerHTML = marked.parse(await file.text());
