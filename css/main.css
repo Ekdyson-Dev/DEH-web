@@ -21,7 +21,7 @@ main .about > div .container .read_more:hover, header nav .navbar .links a:hover
   cursor: pointer;
 }
 
-main .contact form > div input[type=radio] {
+main .registration form > div input[type=radio] {
   height: 1.2rem;
   width: 1.2rem;
   margin: 0;
@@ -39,7 +39,7 @@ main .contact form > div input[type=radio] {
   place-content: center;
   transition: all 0.3s;
 }
-main .contact form > div input[type=radio]::before {
+main .registration form > div input[type=radio]::before {
   height: 0.7em;
   width: 0.7em;
   content: "";
@@ -48,7 +48,7 @@ main .contact form > div input[type=radio]::before {
   box-shadow: inset 1em 1em #77ccf7;
   background-color: transparent;
 }
-main .contact form > div input[type=radio]:checked::before {
+main .registration form > div input[type=radio]:checked::before {
   transform: scale(1);
 }
 
@@ -794,13 +794,13 @@ main .soc p {
   font-size: 1.25rem;
   font-weight: bold;
 }
-main .contact {
+main .registration {
   background-color: #606470;
 }
-main .contact .heading {
+main .registration .heading {
   color: #f7f7f7;
 }
-main .contact form {
+main .registration form {
   display: grid;
   align-items: center;
   align-content: center;
@@ -809,7 +809,7 @@ main .contact form {
   width: 100%;
   max-width: 800px;
 }
-main .contact form > div {
+main .registration form > div {
   display: grid;
   align-items: center;
   align-content: center;
@@ -817,10 +817,10 @@ main .contact form > div {
   gap: 1rem;
   width: 100%;
 }
-main .contact form > div .grid {
+main .registration form > div .grid {
   width: 100%;
 }
-main .contact form > div .form_flex_div {
+main .registration form > div .form_flex_div {
   display: flex;
   align-items: center;
   align-content: center;
@@ -829,17 +829,17 @@ main .contact form > div .form_flex_div {
   gap: 1rem;
 }
 @media screen and (max-width: 720px) {
-  main .contact form > div .form_flex_div {
+  main .registration form > div .form_flex_div {
     flex-direction: column;
   }
 }
-main .contact form > div label {
+main .registration form > div label {
   font-size: 1rem;
   color: #f7f7f7;
   cursor: pointer;
 }
-main .contact form > div textarea,
-main .contact form > div .input {
+main .registration form > div textarea,
+main .registration form > div .input {
   background-color: #323643;
   font-family: "DM Sans", sans-serif;
   padding: 14px 16px;
@@ -853,20 +853,20 @@ main .contact form > div .input {
   margin-top: 8px;
   color: #f7f7f7;
 }
-main .contact form > div textarea::-moz-placeholder, main .contact form > div .input::-moz-placeholder {
+main .registration form > div textarea::-moz-placeholder, main .registration form > div .input::-moz-placeholder {
   color: #f7f7f7;
   opacity: 0.6;
 }
-main .contact form > div textarea::placeholder,
-main .contact form > div .input::placeholder {
+main .registration form > div textarea::placeholder,
+main .registration form > div .input::placeholder {
   color: #f7f7f7;
   opacity: 0.6;
 }
-main .contact form > div .radio_div {
+main .registration form > div .radio_div {
   margin-top: 8px;
   flex-direction: row;
 }
-main .contact form > div .radio_div > div {
+main .registration form > div .radio_div > div {
   display: flex;
   align-items: center;
   align-content: center;
@@ -874,11 +874,11 @@ main .contact form > div .radio_div > div {
   justify-content: left;
   gap: 0.5rem;
 }
-main .contact form > div textarea {
+main .registration form > div textarea {
   width: 100%;
   height: 120px;
 }
-main .contact form > div .submit {
+main .registration form > div .submit {
   width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
@@ -890,23 +890,58 @@ main .contact form > div .submit {
   background-color: #77ccf7;
   transition: all 0.3s;
 }
-main .contact form > div .submit:hover {
+main .registration form > div .submit:hover {
   filter: brightness(0.75);
 }
-main .contact form > div .radio {
+main .registration form > div .radio {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-main .contact form > div input[type=radio] {
+main .registration form > div input[type=radio] {
   border-radius: 50%;
 }
-main .contact form > div input[type=radio]::before {
+main .registration form > div input[type=radio]::before {
   border-radius: inherit;
+}
+main #file {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 90vw;
+  min-height: 10vh;
+  margin: auto;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+main #file > :first-child:is(h1, h2, h3, h4, h5, h6) {
+  text-decoration: underline;
+}
+main #file :is(h1, h2, h3, h4, h5, h6) {
+  margin: 1rem 0 0.25rem 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+}
+main #file p {
+  text-align: justify;
+}
+main #file p strong {
+  color: #77ccf7;
+}
+main #file ul {
+  width: 100%;
+  margin: 0;
 }
 
 footer {
+  position: relative;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -927,4 +962,18 @@ footer .link_github {
   mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+}
+footer .files {
+  position: absolute;
+  inset: auto 3rem 1.5rem auto;
+  display: flex;
+  gap: 0.75rem;
+  font-size: smaller;
+}
+@media screen and (max-width: 480px) {
+  footer .files {
+    position: initial;
+    justify-content: space-between;
+    margin: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

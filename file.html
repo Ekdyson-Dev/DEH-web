@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="authors" content="Filip Beneš, Petr Chalupa, Martin Voplakal" />
+        <link rel="icon" type="image" href="./img/backgrounds/favicon.webp" />
+
+        <title>DEH | Ekdyson | File</title>
+
+        <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    </head>
+    <body>
+        <main>
+            <div id="file"></div>
+        </main>
+
+        <script type="module">
+            import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+
+            document.addEventListener("DOMContentLoaded", async () => {
+                let fileName = new URLSearchParams(window.location.search).get("file");
+                if (!fileName) window.location.href = "/";
+                if (!fileName.endsWith(".md")) fileName += ".md";
+
+                const file = await fetch(`/files/${fileName}`, { method: "GET" });
+                if (!file.ok) return (window.location.href = "/");
+
+                document.getElementById("file").innerHTML = marked.parse(await file.text());
+            });
+        </script>
+    </body>
+</html>
