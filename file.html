@@ -24,7 +24,7 @@
                 if (!fileName) window.location.href = "/";
                 if (!fileName.endsWith(".md")) fileName += ".md";
 
-                const file = await fetch(`/files/${fileName}`, { method: "GET" });
+                const file = await fetch(`/files/${fileName.toLowerCase()}`, { method: "GET" });
                 if (!file.ok) return (window.location.href = "/");
 
                 document.getElementById("file").innerHTML = marked.parse(await file.text());
