@@ -13,21 +13,40 @@
     </head>
     <body>
         <main>
-            <div id="file"></div>
+            <div id="file">
+                <div id="file-error" class="invisible">
+                    <h1>Nastala neočekávaná chyba</h1>
+                    <p>Pokud problém přetrvává, můžete nás kontaktovat přes tento email: <a href="mailto:ekdyson.help@gmail.com">ekdyson.help@gmail.com</a></p>
+                </div>
+            </div>
         </main>
+
+        <footer>
+            <div>Ekdyson Team &copy; 2023</div>
+            <a href="mailto:ekdyson.help@gmail.com">ekdyson.help@gmail.com</a>
+            <a href="https://github.com/Ekdyson-Dev" target="_blank" class="link_github"></a>
+        </footer>
 
         <script type="module">
             import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
 
+            function displayError() {
+                document.getElementById("file-error").classList.remove("invisible");
+            }
+
             document.addEventListener("DOMContentLoaded", async () => {
-                let fileName = new URLSearchParams(window.location.search).get("file");
-                if (!fileName) window.location.href = "/";
-                if (!fileName.endsWith(".md")) fileName += ".md";
+                try {
+                    let fileName = new URLSearchParams(window.location.search).get("file");
+                    if (!fileName) displayError();
+                    if (!fileName.endsWith(".md")) fileName += ".md";
 
-                const file = await fetch(`/files/${fileName.toLowerCase()}`, { method: "GET" });
-                if (!file.ok) return (window.location.href = "/");
+                    const file = await fetch(`/files/${fileName.toLowerCase()}`, { method: "GET" });
+                    if (!file.ok) return displayError();
 
-                document.getElementById("file").innerHTML = marked.parse(await file.text());
+                    document.getElementById("file").innerHTML = marked.parse(await file.text());
+                } catch (error) {
+                    displayError();
+                }
             });
         </script>
     </body>

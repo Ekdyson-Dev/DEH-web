@@ -913,12 +913,19 @@ main #file {
   justify-content: flex-start;
   flex-direction: column;
   max-width: 90vw;
-  min-height: 10vh;
+  min-height: 97vh;
   margin: auto;
   background-color: #f7f7f7;
   border-radius: 4px;
   margin: 1rem auto;
   padding: 0 1rem;
+}
+main #file #file-error h1 {
+  text-decoration: underline;
+}
+main #file #file-error.invisible {
+  display: none;
+  visibility: hidden;
 }
 main #file > :first-child:is(h1, h2, h3, h4, h5, h6) {
   text-decoration: underline;
