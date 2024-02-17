@@ -1,266 +1,267 @@
-### **TERMS OF SERVICE**
 
-**Last updated** **February 17, 2024**
+### **PODMÍNKY SLUŽBY**
 
-**AGREEMENT TO OUR LEGAL TERMS**
+**Poslední aktualizace** **Únor 17, 2024**
 
-We are Ekdyson ('**Company**', '**we**', '**us**', or '**our**').
+**DOHODA S NAŠIMI PRÁVNÍMI PODMÍNKAMI**
 
-We operate the website [https://ekdyson-dev.github.io/DEH-web/](https://ekdyson-dev.github.io/DEH-web/) (the '**Site**'), as well as any other related products and services that refer or link to these legal terms (the '**Legal Terms**') (collectively, the '**Services**').
+Jsme Egnoson ('**Společnost**', '**my**', '**us**' nebo '**náš**').
 
-You can contact us by email at ekdyson.help@gmail.com or by mail to Arabská 682/14, Praha 6 - Vokovice, Prague, Prague 155 00, Czechia.
+Provozujeme webovou stránku [https://ekdyson-dev.github.io/DEH-web/](https://ekdyson-dev.github.io/DEH-web/) (dále jen "**Stránka**"), jakož i další související produkty a služby, které odkazují na tyto právní podmínky nebo na ně odkazují (dále jen "**Právní podmínky**") (dále společně jako "**Služby**").
 
-These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ('**you**'), and Ekdyson, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+Kontaktovat nás můžete e-mailem na adrese ekdyson.help@gmail.com nebo poštou na adresu Arabská 682/14, Praha 6 - Vokovice, Praha, Praha 155 00, Česko.
 
-Supplemental terms and conditions or documents that may be posted on the Services from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Legal Terms from time to time. We will alert you about any changes by updating the 'Last updated' date of these Legal Terms, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Legal Terms to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Legal Terms by your continued use of the Services after the date such revised Legal Terms are posted.
+Tyto právní podmínky představují právně závaznou dohodu mezi vámi, ať již osobně nebo jménem subjektu ('**vy**'), a společností Enoson, týkající se vašeho přístupu ke službám a jejich používání. Souhlasíte s tím, že přístupem ke Službám jste si přečetli, porozuměli a souhlasili jste s tím, že se budete řídit všemi těmito Právními podmínkami. POKUD NESOUHLASÍTE SE VŠEMI TĚMITO PRÁVNÍMI PODMÍNKAMI, JE VÁM VÝSLOVNĚ ZAKÁZÁNO TYTO SLUŽBY POUŽÍVAT A MUSÍTE OKAMŽITĚ UKONČIT POUŽÍVÁNÍ.
 
-All users who are minors in the jurisdiction in which they reside (generally under the age of 18) must have the permission of, and be directly supervised by, their parent or guardian to use the Services. If you are a minor, you must have your parent or guardian read and agree to these Legal Terms prior to you using the Services.
+Dodatečné podmínky nebo dokumenty, které mohou být na Službách příležitostně zveřejněny, jsou zde výslovně uvedeny formou odkazu. Vyhrazujeme si právo dle vlastního uvážení tyto právní podmínky čas od času měnit nebo upravovat. O jakýchkoli změnách vás budeme informovat aktualizací data poslední aktualizace těchto právních podmínek a vy se vzdáváte práva na získání konkrétního upozornění na každou takovou změnu. Je vaší odpovědností pravidelně kontrolovat tyto právní podmínky, abyste byli informováni o aktualizacích. Změny jakýchkoli revidovaných právních podmínek se na vás budou vztahovat a bude se mít za to, že jste je oznámili a přijali, a to vaším dalším používáním služeb po dni, kdy budou tyto revidované právní podmínky zveřejněny.
 
-We recommend that you print a copy of these Legal Terms for your records.
+Všichni uživatelé, kteří jsou nezletilými osobami v jurisdikci, v níž mají bydliště (obvykle mladší 18 let), musí mít svolení k využívání Služeb a musí na ně dohlížet přímo jejich rodič nebo opatrovník. Pokud jste nezletilý, musíte si před použitím Služeb nechat přečíst rodiče nebo opatrovníka a souhlasit s těmito Právními podmínkami.
 
-**TABLE OF CONTENTS**
+Doporučujeme vám vytisknout kopii těchto právních podmínek pro vaše záznamy.
 
-- [**TERMS OF SERVICE**](#terms-of-service)
-  - [**1. OUR SERVICES**](#1-our-services)
-  - [**2. INTELLECTUAL PROPERTY RIGHTS**](#2-intellectual-property-rights)
-  - [**3. USER REPRESENTATIONS**](#3-user-representations)
-  - [**4. USER REGISTRATION**](#4-user-registration)
-  - [**5. PROHIBITED ACTIVITIES**](#5-prohibited-activities)
-  - [**6. USER GENERATED CONTRIBUTIONS**](#6-user-generated-contributions)
-  - [**7. CONTRIBUTION LICENCE**](#7-contribution-licence)
-  - [**8. SOCIAL MEDIA**](#8-social-media)
-  - [**9. THIRD-PARTY WEBSITES AND CONTENT**](#9-third-party-websites-and-content)
-  - [**10. SERVICES MANAGEMENT**](#10-services-management)
-  - [**11. PRIVACY POLICY**](#11-privacy-policy)
-  - [**12. COPYRIGHT INFRINGEMENTS**](#12-copyright-infringements)
-  - [**13. TERM AND TERMINATION**](#13-term-and-termination)
-  - [**14. MODIFICATIONS AND INTERRUPTIONS**](#14-modifications-and-interruptions)
-  - [**15. GOVERNING LAW**](#15-governing-law)
-  - [**16. DISPUTE RESOLUTION**](#16-dispute-resolution)
-  - [**17. CORRECTIONS**](#17-corrections)
-  - [**18. DISCLAIMER**](#18-disclaimer)
-  - [**19. LIMITATIONS OF LIABILITY**](#19-limitations-of-liability)
-  - [**20. INDEMNIFICATION**](#20-indemnification)
-  - [**21. USER DATA**](#21-user-data)
-  - [**22. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES**](#22-electronic-communications-transactions-and-signatures)
-  - [**23. MISCELLANEOUS** ](#23-miscellaneous)
-  - [**24. CONTACT US**](#24-contact-us)
+**OBSAH**
 
-#### **1. OUR SERVICES**
+- [**PODMÍNKY SLUŽBY**](#podmínky-služby)
+  - [**1. NAŠE SLUŽBY**](#1-naše-služby)
+  - [**2. PRÁVA DUŠEVNÍHO VLASTNICTVÍ**](#2-práva-duševního-vlastnictví)
+  - [**3. VYJÁDŘENÍ UŽIVATELŮ**](#3-vyjádření-uživatelů)
+  - [**4. REGISTRACE UŽIVATELE**](#4-registrace-uživatele)
+  - [**5. ZAKÁZANÉ ČINNOSTI**](#5-zakázané-činnosti)
+  - [**6. PŘÍSPĚVKY GENEROVANÉ UŽIVATELEM**](#6-příspěvky-generované-uživatelem)
+  - [**7. LICENCE NA PŘÍSPĚVKY**](#7-licence-na-příspěvky)
+  - [**8. SOCIÁLNÍ MÉDIA**](#8-sociální-média)
+  - [**9. WEBY A OBSAH TŘETÍCH STRAN**](#9-weby-a-obsah-třetích-stran)
+  - [**10. SPRÁVA SLUŽEB**](#10-správa-služeb)
+  - [**11. ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ**](#11-zásady-ochrany-osobních-údajů)
+  - [**12. PORUŠENÍ AUTORSKÝCH PRÁV**](#12-porušení-autorských-práv)
+  - [**13. OBDOBÍ A UKONČENÍ**](#13-období-a-ukončení)
+  - [**14. ÚPRAVY A PŘERUŠENÍ**](#14-úpravy-a-přerušení)
+  - [**15. ROZHODNÉ PRÁVO**](#15-rozhodné-právo)
+  - [**16. ŘEŠENÍ SPORŮ**](#16-řešení-sporů)
+  - [**17. OPRAVY**](#17-opravy)
+  - [**18. PRÁVNÍ OMEZENÍ**](#18-právní-omezení)
+  - [**19. OMEZENÍ ODPOVĚDNOSTI**](#19-omezení-odpovědnosti)
+  - [**20. ODŠKODNĚNÍ**](#20-odškodnění)
+  - [**21. UŽIVATELSKÁ DATA**](#21-uživatelská-data)
+  - [**22. ELEKTRONICKÁ KOMUNIKACE, TRANSAKCE A PODPISY**](#22-elektronická-komunikace-transakce-a-podpisy)
+  - [**23. RŮZNÉ**](#23-různé)
+  - [**24. KONTAKTUJTE NÁS**](#24-kontaktujte-nás)
 
-The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Services from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.
+#### **1. NAŠE SLUŽBY**
 
-#### **2. INTELLECTUAL PROPERTY RIGHTS**
+Informace poskytované při používání služeb nejsou určeny k distribuci nebo použití jakoukoli osobou nebo subjektem v jakékoli jurisdikci nebo zemi, kde by takové distribuce nebo použití bylo v rozporu se zákonem nebo nařízením nebo které by pro nás v rámci takové jurisdikce nebo země vyžadovaly jakoukoli registraci. Osoby, které se rozhodnou pro přístup ke službám z jiných míst, tak činí z vlastní iniciativy a nesou výhradní odpovědnost za dodržování místních zákonů, pokud a v rozsahu, v jakém se uplatňují místní zákony.
 
-**Our intellectual property**
+#### **2. PRÁVA DUŠEVNÍHO VLASTNICTVÍ**
 
-We are the owner or the licensee of all intellectual property rights in our Services, including all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics in the Services (collectively, the 'Content'), as well as the trademarks, service marks, and logos contained therein (the 'Marks').
+**Naše duševní vlastnictví**
 
-Our Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in the United States and around the world.
+Jsme majitelem nebo držitelem licence všech práv duševního vlastnictví v našich službách, včetně veškerého zdrojového kódu, databází, funkcionality, softwaru, designu webových stránek, audia, videa, textu, fotografií a grafiky ve službách (souhrnně "obsah"), jakož i ochranných známek, ochranných známek služeb a log v nich obsažených (dále jen "značky").
 
-The Content and Marks are provided in or through the Services 'AS IS' for your personal, non-commercial use or internal business purpose only.
+Náš obsah a značky jsou chráněny autorskými právy a ochrannými známkami (a různými dalšími právy duševního vlastnictví a nekalými soutěžními zákony) a smlouvami ve Spojených státech a po celém světě.
 
-**Your use of our Services**
+Obsah a značky jsou poskytovány ve službách "TAK, JAK JSOU" nebo jejich prostřednictvím, a to pouze pro vaše osobní, nekomerční použití nebo pro vnitřní obchodní účely.
 
-Subject to your compliance with these Legal Terms, including the '[PROHIBITED ACTIVITIES](#5-prohibited-activities)' section below, we grant you a non-exclusive, non-transferable, revocable licence to:
+**Vaše využívání našich služeb**
 
-*   access the Services; and
-*   download or print a copy of any portion of the Content to which you have properly gained access.
+V závislosti na tom, jak dodržujete tyto Právní podmínky, včetně části "[ZAKÁZANÉ ČINNOSTI](#5-zakázané-činnosti)" níže, vám udělujeme nevýhradní, nepřevoditelnou, odvolatelnou licenci pro:
 
-solely for your personal, non-commercial use or internal business purpose.
+* přístup ke službám a
+* stáhněte nebo vytiskněte kopii libovolné části obsahu, ke které jste řádně získali přístup.
 
-Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.
+výhradně pro vaše osobní, nekomerční použití nebo vnitřní obchodní účely.
 
-If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: ekdyson.help@gmail.com. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.
+S výjimkou případů uvedených v této části nebo jinde v našich Právních podmínkách nesmí být žádná část Služeb a žádný Obsah nebo Ochranné známky kopírovány, reprodukovány, agregovány, znovu publikovány, nahrány, zveřejněny, zveřejněny, zakódovány, přeloženy, přenášeny, distribuovány, prodávány, licencovány nebo jinak využívány pro jakékoli komerční účely, a to bez našeho výslovného předchozího písemného svolení.
 
-We reserve all rights not expressly granted to you in and to the Services, Content, and Marks.
+Chcete-li využívat služby, obsah nebo značky jinak, než jak je uvedeno v této části nebo jinde v našich právních podmínkách, obraťte se na: ekdyson.help@gmail.com. Pokud vám někdy udělíme oprávnění publikovat, reprodukovat nebo veřejně zobrazovat libovolnou část našich služeb nebo obsahu, musíte nás identifikovat jako vlastníky nebo poskytovatele licencí služeb, obsahu nebo značek a zajistit, aby se jakékoli upozornění na autorská práva nebo vlastnická práva objevilo nebo bylo viditelné při publikování, reprodukci nebo zobrazování našeho obsahu.
 
-Any breach of these Intellectual Property Rights will constitute a material breach of our Legal Terms and your right to use our Services will terminate immediately.
+Vyhrazujeme si všechna práva, která vám nejsou výslovně udělena v rámci služeb, obsahu a značek.
 
-**Your submissions and contributions**
+Jakékoli porušení těchto práv duševního vlastnictví bude představovat závažné porušení našich právních podmínek a vaše právo na používání našich služeb bude okamžitě ukončeno.
 
-Please review this section and the '[PROHIBITED ACTIVITIES](#5-prohibited-activities)' section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you have when you post or upload any content through the Services.
+**Vaše podání a příspěvky**
 
-**Submissions:** By directly sending us any question, comment, suggestion, idea, feedback, or other information about the Services ('Submissions'), you agree to assign to us all intellectual property rights in such Submission. You agree that we shall own this Submission and be entitled to its unrestricted use and dissemination for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you.
+Před použitím našich Služeb si pečlivě prostudujte tuto část a část [ZAKÁZANÉ ČINNOSTI](#5-zakázané-činnosti), abyste porozuměli (a) právům, která nám udělujete, a (b) povinnostem, které máte při vkládání nebo nahrávání libovolného obsahu prostřednictvím Služeb.
 
-**Contributions:** The Services may invite you to chat, contribute to, or participate in blogs, message boards, online forums, and other functionality during which you may create, submit, post, display, transmit, publish, distribute, or broadcast content and materials to us or through the Services, including but not limited to text, writings, video, audio, photographs, music, graphics, comments, reviews, rating suggestions, personal information, or other material ('Contributions'). Any Submission that is publicly posted shall also be treated as a Contribution.
+**Odeslání:** Přímým zasláním jakýchkoli dotazů, komentářů, návrhů, nápadů, zpětné vazby nebo jiných informací o Službách ("Odeslání") souhlasíte s tím, že nám v takovém Odeslání přiřadíte všechna práva duševního vlastnictví. Souhlasíte s tím, že budeme vlastnit toto podání a budeme mít právo na jeho neomezené použití a šíření pro jakýkoli zákonný účel, komerční nebo jiný, bez uznání nebo náhrady pro vás.
 
-You understand that Contributions may be viewable by other users of the Services and possibly through third-party websites.
+**Příspěvky:** Služby vás mohou pozvat k chatování, přispívání nebo účasti na blogech, diskuzních fórech, online fórech a dalších funkcích, během kterých můžete vytvářet, odesílat, vystavovat, zobrazovat, přenášet, publikovat, distribuovat nebo vysílat obsah a materiály nám nebo prostřednictvím Služeb, mimo jiné včetně textu, spisů, videa, zvuku, fotografií, hudby, grafiky, komentářů, návrhů hodnocení, osobních informací nebo jiného materiálu ("Příspěvky"). Jakékoli veřejně zveřejněné podání se rovněž považuje za příspěvek.
 
-**When you post Contributions, you grant us a licence (including use of your name, trademarks, and logos):** By posting any Contributions, you grant us an unrestricted, unlimited, irrevocable, perpetual, non-exclusive, transferable, royalty-free, fully-paid, worldwide right, and licence to: use, copy, reproduce, distribute, sell, resell, publish, broadcast, retitle, store, publicly perform, publicly display, reformat, translate, excerpt (in whole or in part), and exploit your Contributions (including, without limitation, your image, name, and voice) for any purpose, commercial, advertising, or otherwise, to prepare derivative works of, or incorporate into other works, your Contributions, and to sublicence the licences granted in this section. Our use and distribution may occur in any media formats and through any media channels.
+Chápete, že příspěvky mohou být zobrazitelné jinými uživateli Služeb a případně prostřednictvím webů třetích stran.
 
-This licence includes our use of your name, company name, and franchise name, as applicable, and any of the trademarks, service marks, trade names, logos, and personal and commercial images you provide.
+**Při vystavování příspěvků nám udělujete licenci (včetně použití vašeho jména, ochranných známek a log):** Uložením jakýchkoli příspěvků nám udělujete neomezené, neomezené, neodvolatelné, trvalé, nevýhradní, přenositelné, bez licenčních poplatků, plně placené, celosvětové právo a licenci na: používání, kopírování, reprodukci, distribuci, prodej, další prodej, vysílání, retrospektivu, obchod, veřejné provádění, veřejné zobrazení, přeformátování, překlad, výňatek (zcela nebo částečně) a využívání vašich příspěvků (včetně, bez omezení, vašeho obrazu, jména a hlasu pro jakýkoli účel, komerční, reklamní nebo jiný, pro přípravu odvozených děl nebo začlenění do jiných děl, vašich příspěvků, a pro sublicence licencí udělených v této části. Naše použití a distribuce může probíhat v libovolných formátech médií a prostřednictvím libovolných mediálních kanálů.
 
-**You are responsible for what you post or upload:** By sending us Submissions and/or posting Contributions through any part of the Services or making Contributions accessible through the Services by linking your account through the Services to any of your social networking accounts, you:
+Tato licence zahrnuje použití vašeho jména, názvu společnosti a franšízového názvu, podle toho, co je použitelné, a jakékoli z ochranných známek, servisních značek, obchodních názvů, log a osobních a komerčních obrázků, které poskytujete.
 
-*   confirm that you have read and agree with our '[PROHIBITED ACTIVITIES](#5-prohibited-activities)' and will not post, send, publish, upload, or transmit through the Services any Submission nor post any Contribution that is illegal, harassing, hateful, harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually explicit, false, inaccurate, deceitful, or misleading;
-*   to the extent permissible by applicable law, waive any and all moral rights to any such Submission and/or Contribution;
-*   warrant that any such Submission and/or Contributions are original to you or that you have the necessary rights and licences to submit such Submissions and/or Contributions and that you have full authority to grant us the above-mentioned rights in relation to your Submissions and/or Contributions; and
-*   warrant and represent that your Submissions and/or Contributions do not constitute confidential information.
+**Odpovídáte za to, co posíláte nebo odesíláte:** Odesláním příspěvků a/nebo jejich zveřejňováním prostřednictvím libovolné části Služeb nebo zpřístupněním příspěvků prostřednictvím Služeb propojením svého účtu prostřednictvím Služeb s libovolným účtem v sociální síti:
 
-You are solely responsible for your Submissions and/or Contributions and you expressly agree to reimburse us for any and all losses that we may suffer because of your breach of (a) this section, (b) any third party’s intellectual property rights, or (c) applicable law.
+* potvrďte, že jste si přečetli a souhlasíte s našimi "[ZAKÁZANÝMI ČINNOSTMI](#5-zakázané-činnosti)" a neposíláte, neposíláte, nepublikujete, neodesíláte ani nepředáváte prostřednictvím Služeb žádné příspěvky, které jsou nezákonné, obtěžující, nenávistné, škodlivé, pomlouvačné, obscénní, šikanující, zneužívající, diskriminační, ohrožující jakoukoli osobu nebo skupinu, sexuálně explicitní, falešné, nepřesné, klamavé nebo zavádějící;
+* v rozsahu přípustném podle platných právních předpisů upustit od jakýchkoli a všech morálních práv na takové podání a/nebo příspěvek;
+* zaručují, že každé takové odeslání a/nebo příspěvky jsou původní pro vás nebo že máte potřebná práva a licence k předložení takových odeslání a/nebo příspěvků a že máte plnou pravomoc udělit nám výše uvedená práva ve vztahu k Vašim příspěvkům a/nebo příspěvkům; a
+* zaručuje a prohlašuje, že vaše příspěvky a/nebo příspěvky nepředstavují důvěrné informace.
 
-**We may remove or edit your Content:** Although we have no obligation to monitor any Contributions, we shall have the right to remove or edit any Contributions at any time without notice if in our reasonable opinion we consider such Contributions harmful or in breach of these Legal Terms. If we remove or edit any such Contributions, we may also suspend or disable your account and report you to the authorities.
+Za svá podání a/nebo příspěvky nesete výhradní odpovědnost a výslovně souhlasíte s tím, že nám uhradíte veškeré ztráty, které nám mohou vzniknout v důsledku porušení (a) tohoto oddílu, (b) práv duševního vlastnictví jakékoli třetí strany nebo (c) platných právních předpisů.
 
-**Copyright infringement**
+**Můžeme odstranit nebo upravit váš obsah:** Přestože nemáme žádnou povinnost sledovat jakékoli příspěvky, budeme mít právo kdykoli odstranit nebo upravit jakékoli příspěvky bez předchozího upozornění, pokud podle našeho názoru považujeme takové příspěvky za škodlivé nebo v rozporu s těmito právními podmínkami. Pokud některé takové příspěvky odstraníme nebo upravíme, můžeme také váš účet pozastavit nebo zakázat a nahlásit vás úřadům.
 
-We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately refer to the '[](#dmca)[COPYRIGHT INFRINGEMENTS](#copyrightno)' section below.
+**Porušení autorských práv**
 
-#### **3. USER REPRESENTATIONS**
+Respektujeme práva duševního vlastnictví ostatních. Pokud se domníváte, že jakýkoli materiál dostupný na nebo prostřednictvím Služeb porušuje libovolná autorská práva, která vlastníte nebo ovládáte, okamžitě se podívejte na oddíl '[](#dmca)[PORUŠENÍ AUTORSKÝCH PRÁV](#copyrightno)' níže.
 
-By using the Services, you represent and warrant that: (1) all registration information you submit will be true, accurate, current, and complete; (2) you will maintain the accuracy of such information and promptly update such registration information as necessary; (3) you have the legal capacity and you agree to comply with these Legal Terms; (4) you are not a minor in the jurisdiction in which you reside, or if a minor, you have received parental permission to use the Services; (5) you will not access the Services through automated or non-human means, whether through a bot, script or otherwise; (6) you will not use the Services for any illegal or unauthorised purpose; and (7) your use of the Services will not violate any applicable law or regulation.
+#### **3. VYJÁDŘENÍ UŽIVATELŮ**
 
-If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the Services (or any portion thereof).
+Používáním Služeb prohlašujete a zaručujete, že: (1) všechny vámi poskytnuté registrační informace budou pravdivé, přesné, aktuální a úplné; (2) budete udržovat přesnost těchto informací a podle potřeby tyto registrační informace neprodleně aktualizovat; (3) máte právní způsobilost a souhlasíte s dodržováním těchto Právních podmínek; (4) nejste nezletilým v jurisdikci, ve které pobýváte, nebo pokud jste nezletilý, obdržel jste rodičovské svolení k používání Služeb; (5) nebudete mít přístup ke Službám automatizovanými nebo nelidskými prostředky, ať už prostřednictvím robota, skriptu nebo jinak; (6) Služby nepoužijete k žádnému nezákonnému nebo neoprávněnému účelu a (7) Vaše používání Služeb neporuší žádné platné zákony nebo předpisy.
 
-#### **4. USER REGISTRATION**
+Pokud poskytnete jakékoli informace, které jsou nepravdivé, nepřesné, neaktuální nebo neúplné, máme právo pozastavit nebo ukončit váš účet a odmítnout jakékoli současné nebo budoucí používání služeb (nebo jakékoli jejich části).
 
-You may be required to register to use the Services. You agree to keep your password confidential and will be responsible for all use of your account and password. We reserve the right to remove, reclaim, or change a username you select if we determine, in our sole discretion, that such username is inappropriate, obscene, or otherwise objectionable.
+#### **4. REGISTRACE UŽIVATELE**
 
-#### **5. PROHIBITED ACTIVITIES**
+K používání služeb můžete být požádáni o registraci. Souhlasíte s tím, že budete heslo uchovávat v tajnosti a budete zodpovědní za veškeré používání vašeho účtu a hesla. Vyhrazujeme si právo odstranit, znovu získat nebo změnit uživatelské jméno, které si vyberete, pokud podle našeho vlastního uvážení rozhodneme, že takové uživatelské jméno je nevhodné, obscénní nebo jinak nežádoucí.
 
-You may not access or use the Services for any purpose other than that for which we make the Services available. The Services may not be used in connection with any commercial endeavours except those that are specifically endorsed or approved by us.
+#### **5. ZAKÁZANÉ ČINNOSTI**
 
-As a user of the Services, you agree not to:
+Nesmíte přistupovat ke Službám nebo je využívat k jiným účelům, než pro které Služby zpřístupňujeme. Služby nesmí být využívány v souvislosti s jakýmkoli komerčním úsilím s výjimkou těch, které jsou výslovně schváleny nebo schváleny námi.
 
-*   Systematically retrieve data or other content from the Services to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
-*   Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.
-*   Circumvent, disable, or otherwise interfere with security-related features of the Services, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Services and/or the Content contained therein.
-*   Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Services.
-*   Use any information obtained from the Services in order to harass, abuse, or harm another person.
-*   Make improper use of our support services or submit false reports of abuse or misconduct.
-*   Use the Services in a manner inconsistent with any applicable laws or regulations.
-*   Engage in unauthorised framing of or linking to the Services.
-*   Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Services or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Services.
-*   Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.
-*   Delete the copyright or other proprietary rights notice from any Content.
-*   Attempt to impersonate another user or person or use the username of another user.
-*   Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats ('gifs'), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as 'spyware' or 'passive collection mechanisms' or 'pcms').
-*   Interfere with, disrupt, or create an undue burden on the Services or the networks or services connected to the Services.
-*   Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Services to you.
-*   Attempt to bypass any measures of the Services designed to prevent or restrict access to the Services, or any portion of the Services.
-*   Copy or adapt the Services' software, including but not limited to Flash, PHP, HTML, JavaScript, or other code.
-*   Except as permitted by applicable law, decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Services.
-*   Except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Services, or use or launch any unauthorised script or other software.
-*   Use a buying agent or purchasing agent to make purchases on the Services.
-*   Make any unauthorised use of the Services, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretences.
-*   Use the Services as part of any effort to compete with us or otherwise use the Services and/or the Content for any revenue-generating endeavour or commercial enterprise.
-*   Use the Services to advertise or offer to sell goods and services.
-*   Sell or otherwise transfer your profile.
+Jako uživatel Služeb souhlasíte s tím, že:
 
-#### **6. USER GENERATED CONTRIBUTIONS**
+* Systematicky načítat data nebo jiný obsah ze Služeb pro vytvoření nebo kompilaci, přímo nebo nepřímo, kolekce, kompilace, databáze nebo adresáře bez písemného povolení od nás.
+* Podvádět, podvádět nebo klamat nás a další uživatele, zejména v jakémkoli pokusu o získání citlivých informací o účtu, jako jsou uživatelská hesla.
+* Obejít, zakázat nebo jinak narušit bezpečnostní funkce Služeb, včetně funkcí, které zabraňují nebo omezují použití nebo kopírování libovolného Obsahu nebo vynucují omezení používání Služeb a/nebo Obsahu v nich obsaženého.
+* Neporozumění, pošpinění nebo jiné poškození, podle našeho názoru, nás a/nebo služeb.
+* Použijte jakékoli informace získané ze Služeb za účelem obtěžování, zneužívání nebo poškození jiné osoby.
+* Zneužívejte naše podpůrné služby nebo předkládejte nepravdivé zprávy o zneužívání nebo pochybení.
+* Služby používejte způsobem, který není v souladu s platnými zákony nebo předpisy.
+* Zapojit se do neoprávněného rámce služeb nebo propojení se službami.
+* Nahrávat nebo přenášet (nebo se pokoušet nahrávat nebo přenášet) viry, trojské koně nebo jiný materiál, včetně nadměrného používání velkých písmen a spamingu (nepřetržité zveřejňování opakujícího se textu), který narušuje nepřerušované používání služeb a jejich využívání kteroukoli stranou nebo upravuje, zhoršuje, narušuje, mění nebo narušuje používání, funkce, provoz nebo údržbu služeb.
+* Zapojit se do automatizovaného používání systému, jako je používání skriptů k odesílání poznámek nebo zpráv, nebo použití jakýchkoli nástrojů pro dolování dat, robotů nebo podobných nástrojů pro shromažďování a extrakci dat.
+* Odstranit upozornění o autorských právech nebo jiných vlastnických právech z libovolného obsahu.
+* Pokus o zosobnění jiného uživatele nebo osoby nebo použití uživatelského jména jiného uživatele.
+* Nahrát nebo přenést (nebo se pokusit nahrát nebo přenést) jakýkoliv materiál, který funguje jako pasivní nebo aktivní mechanismus shromažďování nebo přenosu informací, včetně, bez omezení, jasných formátů grafické výměny ("gifs"), 1×1 pixelů, webových štěnic, cookies nebo jiných podobných zařízení (někdy označovaných jako "spyware" nebo "pasivní mechanismy sběru" nebo "pcms").
+* Zasahovat do služeb nebo sítí či služeb připojených ke službám, narušovat je nebo vytvářet nepřiměřenou zátěž.
+* obtěžovat, obtěžovat, zastrašovat nebo ohrožovat jakéhokoli z našich zaměstnanců nebo agentů, kteří se zabývají poskytováním jakékoli části Služeb vám.
+* Pokusit se obejít všechna opatření Služeb, která mají zabránit nebo omezit přístup ke Službám nebo jakékoli části Služeb.
+* Zkopírujte nebo upravte software služeb, včetně, ale ne výhradně, Flash, PHP, HTML, JavaScriptu nebo jiného kódu.
+* Pokud to nepovolují platné zákony, dešifrujte, dekompilujte, demontujte nebo zpětně analyzujte jakýkoli software, který je součástí Služeb.
+* Kromě případů, kdy je výsledkem standardní používání vyhledávače nebo internetového prohlížeče, můžete používat, spouštět, vyvíjet nebo distribuovat libovolný automatizovaný systém, mimo jiné libovolný pavouk, robot, nástroj pro podvádění, škrabku nebo offline čtečku, která přistupuje ke Službám, nebo používat či spouštět libovolný neautorizovaný skript nebo jiný software.
+* Použijte nákupního zástupce nebo nákupního zástupce k nákupu služeb.
+* Neoprávněně využívat Služby, včetně shromažďování uživatelských jmen a/nebo e-mailových adres uživatelů elektronickými nebo jinými prostředky za účelem zasílání nevyžádaných e-mailů nebo vytváření uživatelských účtů automatizovanými prostředky nebo pod falešnými záminkami.
+* Využijte služby v rámci jakéhokoli úsilí o konkurenční soutěž s námi nebo jiné využití Služeb a/nebo Obsahu pro jakékoliv výdělečné úsilí nebo komerční podnik.
+* Využijte služby k reklamě nebo nabídce prodeje zboží a služeb.
+* Prodej nebo jiný přenos profilu.
 
-The Services may invite you to chat, contribute to, or participate in blogs, message boards, online forums, and other functionality, and may provide you with the opportunity to create, submit, post, display, transmit, perform, publish, distribute, or broadcast content and materials to us or on the Services, including but not limited to text, writings, video, audio, photographs, graphics, comments, suggestions, or personal information or other material (collectively, 'Contributions'). Contributions may be viewable by other users of the Services and through third-party websites. As such, any Contributions you transmit may be treated as non-confidential and non-proprietary. When you create or make available any Contributions, you thereby represent and warrant that:
+#### **6. PŘÍSPĚVKY GENEROVANÉ UŽIVATELEM**
 
-*   The creation, distribution, transmission, public display, or performance, and the accessing, downloading, or copying of your Contributions do not and will not infringe the proprietary rights, including but not limited to the copyright, patent, trademark, trade secret, or moral rights of any third party.
-*   You are the creator and owner of or have the necessary licences, rights, consents, releases, and permissions to use and to authorise us, the Services, and other users of the Services to use your Contributions in any manner contemplated by the Services and these Legal Terms.
-*   You have the written consent, release, and/or permission of each and every identifiable individual person in your Contributions to use the name or likeness of each and every such identifiable individual person to enable inclusion and use of your Contributions in any manner contemplated by the Services and these Legal Terms.
-*   Your Contributions are not false, inaccurate, or misleading.
-*   Your Contributions are not unsolicited or unauthorised advertising, promotional materials, pyramid schemes, chain letters, spam, mass mailings, or other forms of solicitation.
-*   Your Contributions are not obscene, lewd, lascivious, filthy, violent, harassing, libellous, slanderous, or otherwise objectionable (as determined by us).
-*   Your Contributions do not ridicule, mock, disparage, intimidate, or abuse anyone.
-*   Your Contributions are not used to harass or threaten (in the legal sense of those terms) any other person and to promote violence against a specific person or class of people.
-*   Your Contributions do not violate any applicable law, regulation, or rule.
-*   Your Contributions do not violate the privacy or publicity rights of any third party.
-*   Your Contributions do not violate any applicable law concerning child pornography, or otherwise intended to protect the health or well-being of minors.
-*   Your Contributions do not include any offensive comments that are connected to race, national origin, gender, sexual preference, or physical handicap.
-*   Your Contributions do not otherwise violate, or link to material that violates, any provision of these Legal Terms, or any applicable law or regulation.
+Služby vás mohou pozvat k chatování, přispívání nebo účasti na blogech, diskuzních fórech, online fórech a dalších funkcích a mohou vám poskytnout příležitost vytvářet, odesílat, zveřejňovat, zobrazovat, přenášet, provádět, publikovat, distribuovat nebo vysílat obsah a materiály pro nás nebo na službách, včetně, ale nikoli výhradně, textu, spisů, videa, zvuku, fotografií, grafiky, komentářů, návrhů nebo osobních informací nebo jiných materiálů (souhrnně "Příspěvky"). Příspěvky mohou být zobrazeny jinými uživateli Služeb a prostřednictvím webových stránek třetích stran. Jakékoli příspěvky, které předáte, tak mohou být považovány za nedůvěrné a nechráněné. Když vytváříte nebo zpřístupňujete nějaké příspěvky, prohlašujete tím a zaručujete, že:
 
-Any use of the Services in violation of the foregoing violates these Legal Terms and may result in, among other things, termination or suspension of your rights to use the Services.
+* Tvorba, šíření, přenos, veřejné zobrazení nebo plnění a přístup, stahování nebo kopírování vašich příspěvků neporušují a nebudou porušovat vlastnická práva, včetně, ale ne výhradně, autorských práv, patentů, ochranných známek, obchodního tajemství nebo morálních práv jakékoli třetí strany.
+* Jste tvůrcem a vlastníkem nebo máte potřebné licence, práva, souhlasy, vydání a oprávnění k používání a k autorizaci nás, Služeb a dalších uživatelů Služeb k použití Vašich Příspěvků jakýmkoli způsobem zamýšleným Službami a těmito Právními podmínkami.
+* Máte písemný souhlas, vydání a/nebo svolení každé jednotlivé identifikovatelné osoby ve vašich Příspěvcích k použití jména nebo podobnosti každé takové identifikovatelné fyzické osoby, abyste umožnili zahrnutí a použití vašich Příspěvků jakýmkoli způsobem zamýšleným Službami a těmito Právními podmínkami.
+* Vaše příspěvky nejsou falešné, nepřesné nebo zavádějící.
+* Vaše příspěvky nejsou nevyžádaná nebo neautorizovaná reklama, propagační materiály, pyramidová schémata, řetězové dopisy, spam, hromadné zásilky nebo jiné formy vyžádání.
+* Vaše příspěvky nejsou obscénní, oplzlé, lascivní, špinavé, násilné, obtěžující, urážlivé, urážlivé, pomlouvačné nebo jinak nežádoucí (jak jsme určili).
+* Vaše příspěvky nikoho nezesměšňují, nevysmívají, nepohoršují, nezastrašují ani nezneužívají.
+* Vaše příspěvky nejsou využívány k obtěžování nebo ohrožování (v právním smyslu těchto pojmů) jakékoli jiné osoby a k podpoře násilí proti konkrétní osobě nebo třídě lidí.
+* Vaše příspěvky neporušují žádné platné zákony, nařízení nebo pravidlo.
+* Vaše příspěvky neporušují práva na ochranu osobních údajů nebo práva na propagaci třetích stran.
+* Vaše příspěvky neporušují žádné platné právní předpisy týkající se dětské pornografie ani jinak určené k ochraně zdraví nebo blaha nezletilých.
+* Vaše příspěvky neobsahují žádné urážlivé komentáře, které jsou spojeny s rasou, národnostním původem, pohlavím, sexuální orientací nebo fyzickým handicapem.
+* Vaše příspěvky jinak neporušují žádné ustanovení těchto právních podmínek nebo platných zákonů či nařízení ani neodkazují na materiály, které by je porušovaly.
 
-#### **7. CONTRIBUTION LICENCE**
+Jakékoli použití služeb v rozporu s výše uvedenými podmínkami porušuje tyto právní podmínky a může mít mimo jiné za následek ukončení nebo pozastavení vašich práv na používání služeb.
 
-By posting your Contributions to any part of the Services or making Contributions accessible to the Services by linking your account from the Services to any of your social networking accounts, you automatically grant, and you represent and warrant that you have the right to grant, to us an unrestricted, unlimited, irrevocable, perpetual, non-exclusive, transferable, royalty-free, fully-paid, worldwide right, and licence to host, use, copy, reproduce, disclose, sell, resell, publish, broadcast, retitle, archive, store, cache, publicly perform, publicly display, reformat, translate, transmit, excerpt (in whole or in part), and distribute such Contributions (including, without limitation, your image and voice) for any purpose, commercial, advertising, or otherwise, and to prepare derivative works of, or incorporate into other works, such Contributions, and grant and authorise sublicences of the foregoing. The use and distribution may occur in any media formats and through any media channels.
+#### **7. LICENCE NA PŘÍSPĚVKY**
 
-This licence will apply to any form, media, or technology now known or hereafter developed, and includes our use of your name, company name, and franchise name, as applicable, and any of the trademarks, service marks, trade names, logos, and personal and commercial images you provide. You waive all moral rights in your Contributions, and you warrant that moral rights have not otherwise been asserted in your Contributions.
+Odesláním vašich příspěvků do kterékoli části Služeb nebo zpřístupněním Příspěvků Službám propojením svého účtu ze Služeb s libovolným účtem v sociální síti automaticky udělujete a prohlašujete a zaručujete, že máte právo nám udělit neomezené, neomezené, neodvolatelné, trvalé, nevýhradní, převoditelné, bezplatné, plně placené, celosvětové právo a licenci na hostování, používání, kopírování, reprodukci, zveřejňování, prodej, další prodej, vysílání, změnu titulu, archiv, ukládání, ukládání do mezipaměti, veřejné provádění, veřejné zobrazení, přeformátování, přenos, výpis (vcelku nebo jinak) částečně), a distribuovat takové Příspěvky (včetně, ale bez omezení, Vašeho obrazu a hlasu) pro jakýkoliv účel, komerční, reklamní nebo jiné, a připravovat odvozená díla nebo začlenit do jiných děl, takových Příspěvků, a udělovat a schvalovat sublicence výše uvedených. Použití a distribuce může probíhat v libovolném formátu médií a prostřednictvím libovolných mediálních kanálů.
 
-We do not assert any ownership over your Contributions. You retain full ownership of all of your Contributions and any intellectual property rights or other proprietary rights associated with your Contributions. We are not liable for any statements or representations in your Contributions provided by you in any area on the Services. You are solely responsible for your Contributions to the Services and you expressly agree to exonerate us from any and all responsibility and to refrain from any legal action against us regarding your Contributions.
+Tato licence se vztahuje na jakoukoli formu, média nebo technologii, která je nyní známa nebo vyvinuta, a zahrnuje naše použití vašeho jména, názvu společnosti a franšízového názvu, podle toho, co je použitelné, a jakékoliv ochranné známky, servisní známky, obchodní názvy, loga a osobní a komerční obrázky, které poskytujete. Vzdáváte se všech morálních práv ve svých příspěvcích a zaručujete, že morální práva nebyla jinak ve vašich příspěvcích uplatněna.
 
-We have the right, in our sole and absolute discretion, (1) to edit, redact, or otherwise change any Contributions; (2) to re-categorise any Contributions to place them in more appropriate locations on the Services; and (3) to pre-screen or delete any Contributions at any time and for any reason, without notice. We have no obligation to monitor your Contributions.
+Neuplatňujeme žádné vlastnictví vašich příspěvků. Ponecháte si plné vlastnictví všech svých příspěvků a veškerá práva duševního vlastnictví nebo jiná vlastnická práva spojená s vašimi příspěvky. Neodpovídáme za žádná prohlášení nebo prohlášení ve vašich příspěvcích, které jste poskytli v jakékoli oblasti Služeb. Jste výhradně odpovědní za své příspěvky do služeb a výslovně souhlasíte s tím, že nás zprostíte veškeré odpovědnosti a zdržíte se jakýchkoli právních kroků proti nám, pokud jde o vaše příspěvky.
 
-#### **8. SOCIAL MEDIA**
+Máme právo, podle svého výhradního a absolutního uvážení, (1) upravovat, redigovat nebo jinak měnit jakékoli příspěvky, (2) přeřazovat jakékoli příspěvky do kategorií a umísťovat je na vhodnější místa ve službách a (3) předběžně prověřovat nebo mazat jakékoli příspěvky kdykoli a z jakéhokoli důvodu, bez předchozího upozornění. Nemáme žádnou povinnost sledovat vaše příspěvky.
 
-As part of the functionality of the Services, you may link your account with online accounts you have with third-party service providers (each such account, a 'Third-Party Account') by either: (1) providing your Third-Party Account login information through the Services; or (2) allowing us to access your Third-Party Account, as is permitted under the applicable terms and conditions that govern your use of each Third-Party Account. You represent and warrant that you are entitled to disclose your Third-Party Account login information to us and/or grant us access to your Third-Party Account, without breach by you of any of the terms and conditions that govern your use of the applicable Third-Party Account, and without obligating us to pay any fees or making us subject to any usage limitations imposed by the third-party service provider of the Third-Party Account. By granting us access to any Third-Party Accounts, you understand that (1) we may access, make available, and store (if applicable) any content that you have provided to and stored in your Third-Party Account (the 'Social Network Content') so that it is available on and through the Services via your account, including without limitation any friend lists and (2) we may submit to and receive from your Third-Party Account additional information to the extent you are notified when you link your account with the Third-Party Account. Depending on the Third-Party Accounts you choose and subject to the privacy settings that you have set in such Third-Party Accounts, personally identifiable information that you post to your Third-Party Accounts may be available on and through your account on the Services. Please note that if a Third-Party Account or associated service becomes unavailable or our access to such Third-Party Account is terminated by the third-party service provider, then Social Network Content may no longer be available on and through the Services. You will have the ability to disable the connection between your account on the Services and your Third-Party Accounts at any time. PLEASE NOTE THAT YOUR RELATIONSHIP WITH THE THIRD-PARTY SERVICE PROVIDERS ASSOCIATED WITH YOUR THIRD-PARTY ACCOUNTS IS GOVERNED SOLELY BY YOUR AGREEMENT(S) WITH SUCH THIRD-PARTY SERVICE PROVIDERS. We make no effort to review any Social Network Content for any purpose, including but not limited to, for accuracy, legality, or non-infringement, and we are not responsible for any Social Network Content. You acknowledge and agree that we may access your email address book associated with a Third-Party Account and your contacts list stored on your mobile device or tablet computer solely for purposes of identifying and informing you of those contacts who have also registered to use the Services. You can deactivate the connection between the Services and your Third-Party Account by contacting us using the contact information below or through your account settings (if applicable). We will attempt to delete any information stored on our servers that was obtained through such Third-Party Account, except the username and profile picture that become associated with your account.
+#### **8. SOCIÁLNÍ MÉDIA**
 
-#### **9. THIRD-PARTY WEBSITES AND CONTENT**
+V rámci funkcí Služeb můžete svůj účet propojit s online účty, které máte u poskytovatelů služeb třetích stran (každý takový účet, "Účet třetí strany"), a to buď: (1) poskytnutím přihlašovacích informací k účtu třetí strany prostřednictvím Služeb, nebo (2) umožněním přístupu k vašemu účtu třetí strany, jak je povoleno podle platných podmínek, kterými se řídí vaše používání každého Účtu třetí strany. Prohlašujete a zaručujete, že jste oprávněni nám sdělit přihlašovací údaje k vašemu účtu třetí strany a/nebo nám udělit přístup k vašemu účtu třetí strany, aniž byste porušili jakékoli podmínky, kterými se řídí vaše používání příslušného účtu třetí strany, a aniž byste nás zavázali k úhradě jakýchkoli poplatků nebo k tomu, abychom podléhali jakýmkoli omezením používání uloženým poskytovatelem služeb třetí strany účtu třetí strany. Udělením přístupu k libovolným účtům třetích stran nám rozumíte, že (1) můžeme přistupovat, zpřístupňovat a ukládat (pokud je to relevantní) libovolný obsah, který jste poskytli a uložili ve vašem účtu třetích stran (dále jen "obsah sociální sítě") tak, aby byl k dispozici ve službách a prostřednictvím služeb prostřednictvím vašeho účtu, včetně bez omezení libovolných seznamů přátel, a (2) můžeme odesílat a přijímat od vašeho účtu třetích stran další informace v rozsahu, v jakém jste upozorněni, když propojíte svůj účet s účtem třetích stran. V závislosti na účtech třetích stran, které si vyberete, a s výhradou nastavení ochrany osobních údajů, které jste nastavili v těchto účtech třetích stran, mohou být ve službách a prostřednictvím vašeho účtu k dispozici informace, které lze identifikovat a které zveřejníte na účtech třetích stran. Upozorňujeme, že pokud účet třetí strany nebo přidružená služba přestanou být k dispozici nebo pokud bude náš přístup k takovému účtu třetí strany ukončen poskytovatelem služeb třetí strany, nemusí být obsah sociální sítě nadále k dispozici v rámci služeb a jejich prostřednictvím. Připojení mezi vaším účtem ve Službách a účty třetích stran budete moci kdykoli zakázat. UPOZORŇUJEME, ŽE VÁŠ VZTAH S POSKYTOVATELI SLUŽEB TŘETÍCH STRAN SPOJENÝ S VAŠIMI ÚČTY TŘETÍCH STRAN SE ŘÍDÍ VÝHRADNĚ VAŠIMI SMLOUVAMI S TĚMITO POSKYTOVATELI SLUŽEB TŘETÍCH STRAN. Neusilujeme o kontrolu jakéhokoli obsahu sociálních sítí pro jakýkoli účel, mimo jiné za účelem přesnosti, zákonnosti nebo neporušení, a za žádný obsah sociálních sítí neodpovídáme. Berete na vědomí a souhlasíte s tím, že můžeme přistupovat k vašemu e-mailovému adresáři spojenému s účtem třetí strany a k vašemu seznamu kontaktů uloženému v mobilním zařízení nebo v počítači tabletu výhradně za účelem identifikace a informování o kontaktech, které se také zaregistrovaly k používání služeb. Spojení mezi službami a vaším účtem třetí strany můžete deaktivovat tím, že nás kontaktujete pomocí kontaktních údajů uvedených níže nebo prostřednictvím nastavení vašeho účtu (pokud existuje). Pokusíme se smazat všechny informace uložené na našich serverech, které byly získány prostřednictvím takového účtu třetí strany, s výjimkou uživatelského jména a profilového obrázku, které budou přidruženy k vašemu účtu.
 
-The Services may contain (or you may be sent via the Site) links to other websites ('Third-Party Websites') as well as articles, photographs, text, graphics, pictures, designs, music, sound, video, information, applications, software, and other content or items belonging to or originating from third parties ('Third-Party Content'). Such Third-Party Websites and Third-Party Content are not investigated, monitored, or checked for accuracy, appropriateness, or completeness by us, and we are not responsible for any Third-Party Websites accessed through the Services or any Third-Party Content posted on, available through, or installed from the Services, including the content, accuracy, offensiveness, opinions, reliability, privacy practices, or other policies of or contained in the Third-Party Websites or the Third-Party Content. Inclusion of, linking to, or permitting the use or installation of any Third-Party Websites or any Third-Party Content does not imply approval or endorsement thereof by us. If you decide to leave the Services and access the Third-Party Websites or to use or install any Third-Party Content, you do so at your own risk, and you should be aware these Legal Terms no longer govern. You should review the applicable terms and policies, including privacy and data gathering practices, of any website to which you navigate from the Services or relating to any applications you use or install from the Services. Any purchases you make through Third-Party Websites will be through other websites and from other companies, and we take no responsibility whatsoever in relation to such purchases which are exclusively between you and the applicable third party. You agree and acknowledge that we do not endorse the products or services offered on Third-Party Websites and you shall hold us blameless from any harm caused by your purchase of such products or services. Additionally, you shall hold us blameless from any losses sustained by you or harm caused to you relating to or resulting in any way from any Third-Party Content or any contact with Third-Party Websites.
+#### **9. WEBY A OBSAH TŘETÍCH STRAN**
 
-#### **10. SERVICES MANAGEMENT**
+Služby mohou obsahovat odkazy (nebo můžete být odesláni prostřednictvím Stránek) na jiné webové stránky (dále jen "Webové stránky třetích stran"), jakož i články, fotografie, text, grafiku, obrázky, návrhy, hudbu, zvuk, video, informace, aplikace, software a další obsah nebo položky patřící nebo pocházející od třetích stran (dále jen "Obsah třetích stran"). Tyto webové stránky třetích stran a obsah třetích stran nejsou námi prošetřovány, monitorovány nebo kontrolovány z hlediska přesnosti, vhodnosti nebo úplnosti a my nejsme odpovědní za žádné webové stránky třetích stran, ke kterým přistupujeme prostřednictvím Služeb, ani za jakýkoli obsah třetích stran, který je na těchto Službách zveřejněn, je k dispozici prostřednictvím Služeb nebo je z nich instalován, včetně obsahu, přesnosti, urážlivosti, názorů, spolehlivosti, postupů ochrany osobních údajů nebo jiných zásad nebo obsažených na těchto Webových stránkách třetích stran nebo v Obsahu třetích stran. Zahrnutí, propojení nebo povolení používání nebo instalace jakýchkoli webových stránek třetích stran nebo jakéhokoli obsahu třetích stran neznamená schválení nebo schválení těchto webových stránek námi. Rozhodnete-li se opustit Služby a získat přístup k webovým stránkám třetích stran nebo použít či nainstalovat jakýkoli obsah třetích stran, činíte tak na vlastní riziko a měli byste si být vědomi, že tyto právní podmínky již neplatí. Měli byste si prohlédnout příslušné podmínky a zásady, včetně postupů pro ochranu osobních údajů a shromažďování údajů, všech webových stránek, na které přejdete ze Služeb nebo které se vztahují k aplikacím, které ze Služeb používáte nebo instalujete. Veškeré nákupy, které provedete prostřednictvím webových stránek třetích stran, budou provedeny prostřednictvím jiných webových stránek a od jiných společností a my nepřijímáme žádnou odpovědnost za takové nákupy, které jsou výhradně mezi vámi a příslušnou třetí stranou. Souhlasíte s tím a berete na vědomí, že nepodporujeme produkty nebo služby nabízené na webových stránkách třetích stran a vy nás budete beztrestně obviňovat z jakékoli újmy způsobené vaším nákupem takových produktů nebo služeb. Kromě toho nás budete vinit ze všech ztrát, které jste utrpěli, nebo ze škod, které vám byly způsobeny v souvislosti s jakýmkoli obsahem třetích stran nebo jakýmkoli kontaktem s webovými stránkami třetích stran nebo které z něj vyplývají.
 
-We reserve the right, but not the obligation, to: (1) monitor the Services for violations of these Legal Terms; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Services or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.
+#### **10. SPRÁVA SLUŽEB**
 
-#### **11. PRIVACY POLICY**
+Vyhrazujeme si právo, ale nikoli povinnost: (1) sledovat služby za porušení těchto právních podmínek; (2) podniknout příslušné právní kroky proti každému, kdo dle našeho vlastního uvážení poruší zákon nebo tyto právní podmínky, včetně, bez omezení, hlášení tohoto uživatele orgánům činným v trestním řízení; (3) dle našeho výhradního uvážení a bez omezení, odmítnout, omezit přístup k některému z vašich příspěvků nebo jakékoli jeho části, omezit jeho dostupnost nebo jej zakázat (v rozsahu, v jakém je to technicky proveditelné); (4) dle našeho vlastního uvážení a bez omezení, upozornění nebo odpovědnosti, odstranit ze služeb nebo jinak zakázat všechny soubory a obsah, které jsou nadměrné nebo jsou pro naše systémy jakkoli zatěžující; a (5) jinak spravovat Služby způsobem, který je navržen tak, aby chránil naše práva a majetek a usnadnil řádné fungování Služeb.
 
-We care about data privacy and security. Please review our Privacy Policy: **[GDPR](https://ekdyson-dev.github.io/DEH-web/file.html?file=gdpr)**. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in Czechia. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in Czechia, then through your continued use of the Services, you are transferring your data to Czechia, and you expressly consent to have your data transferred to and processed in Czechia.
+#### **11. ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ**
 
-#### **12. COPYRIGHT INFRINGEMENTS**
+Dbáme na ochranu a zabezpečení dat. Přečtěte si naše Zásady ochrany osobních údajů: **[GDPR](https://ekdyson-dev.github.io/DEH-web/file.html?file=gdpr)**. Používáním Služeb souhlasíte s tím, že budete vázáni našimi Zásadami ochrany osobních údajů, které jsou začleněny do těchto Právních podmínek. Upozorňujeme, že služby jsou hostovány v Česku. Pokud přistupujete ke Službám z kteréhokoli jiného regionu světa se zákony nebo jinými požadavky, kterými se řídí shromažďování, používání nebo zveřejňování osobních údajů, které se liší od platných zákonů v Česku, pak prostřednictvím dalšího používání Služeb předáváte Vaše údaje do Česka a výslovně souhlasíte s tím, aby Vaše údaje byly předány a zpracovány v Česku.
 
-We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately notify us using the contact information provided below (a 'Notification'). A copy of your Notification will be sent to the person who posted or stored the material addressed in the Notification. Please be advised that pursuant to applicable law you may be held liable for damages if you make material misrepresentations in a Notification. Thus, if you are not sure that material located on or linked to by the Services infringes your copyright, you should consider first contacting an attorney.
+#### **12. PORUŠENÍ AUTORSKÝCH PRÁV**
 
-#### **13. TERM AND TERMINATION**
+Respektujeme práva duševního vlastnictví ostatních. Pokud se domníváte, že jakýkoli materiál dostupný na nebo prostřednictvím Služeb porušuje libovolná autorská práva, která vlastníte nebo ovládáte, neprodleně nás informujte pomocí kontaktních údajů uvedených níže (dále jen "oznámení"). Kopie Vašeho Oznámení bude zaslána osobě, která vystavila nebo uložila materiál, na který se oznámení vztahuje. Upozorňujeme, že podle platných právních předpisů můžete být odpovědní za náhradu škody, pokud v oznámení uvedete podstatné zkreslení. Pokud si tedy nejste jisti, že materiál umístěný na Službách nebo s nimi spojený porušuje vaše autorská práva, měli byste nejprve kontaktovat advokáta.
 
-These Legal Terms shall remain in full force and effect while you use the Services. WITHOUT LIMITING ANY OTHER PROVISION OF THESE LEGAL TERMS, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SERVICES (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE LEGAL TERMS OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SERVICES OR DELETE YOUR ACCOUNT AND ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION.
+#### **13. OBDOBÍ A UKONČENÍ**
 
-If we terminate or suspend your account for any reason, you are prohibited from registering and creating a new account under your name, a fake or borrowed name, or the name of any third party, even if you may be acting on behalf of the third party. In addition to terminating or suspending your account, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress.
+Tyto právní podmínky zůstanou v plné platnosti a účinnosti i při používání služeb. BEZ OMEZENÍ JAKÉHOKOLI JINÉHO USTANOVENÍ TĚCHTO PRÁVNÍCH PODMÍNEK SI VYHRAZUJEME PRÁVO DLE VLASTNÍHO UVÁŽENÍ A BEZ UPOZORNĚNÍ NEBO ODPOVĚDNOSTI ODEPŘÍT PŘÍSTUP KE SLUŽBÁM A JEJICH POUŽÍVÁNÍ (VČETNĚ BLOKOVÁNÍ URČITÝCH IP ADRES) JAKÉKOLI OSOBĚ Z JAKÉHOKOLI DŮVODU NEBO BEZ JAKÉHOKOLI DŮVODU, VČETNĚ BEZ OMEZENÍ Z DŮVODU PORUŠENÍ JAKÉHOKOLI PROHLÁŠENÍ, ZÁRUKY NEBO SMLOUVY OBSAŽENÉ V TĚCHTO PRÁVNÍCH PODMÍNKÁCH NEBO JAKÉHOKOLI PLATNÉHO ZÁKONA NEBO NAŘÍZENÍ. MŮŽEME UKONČIT VAŠE POUŽÍVÁNÍ NEBO ÚČAST VE SLUŽBÁCH NEBO ODSTRANIT VÁŠ ÚČET A VEŠKERÝ OBSAH NEBO INFORMACE, KTERÉ JSTE ZVEŘEJNILI, KDYKOLI, BEZ VAROVÁNÍ, DLE NAŠEHO VLASTNÍHO UVÁŽENÍ.
 
-#### **14. MODIFICATIONS AND INTERRUPTIONS**
+Pokud váš účet z jakéhokoli důvodu ukončíme nebo pozastavíme, je vám zakázána registrace a vytvoření nového účtu pod vaším jménem, falešným nebo vypůjčeným jménem nebo jménem jakékoli třetí strany, a to i v případě, že jednáte jménem této třetí strany. Kromě zrušení nebo pozastavení vašeho účtu si vyhrazujeme právo podniknout příslušné právní kroky, mimo jiné včetně občanskoprávní, trestněprávní a soudní nápravy.
 
-We reserve the right to change, modify, or remove the contents of the Services at any time or for any reason at our sole discretion without notice. However, we have no obligation to update any information on our Services. We will not be liable to you or any third party for any modification, price change, suspension, or discontinuance of the Services.
+#### **14. ÚPRAVY A PŘERUŠENÍ**
 
-We cannot guarantee the Services will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Services, resulting in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the Services at any time or for any reason without notice to you. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Services during any downtime or discontinuance of the Services. Nothing in these Legal Terms will be construed to obligate us to maintain and support the Services or to supply any corrections, updates, or releases in connection therewith.
+Vyhrazujeme si právo kdykoli nebo z jakéhokoli důvodu změnit, upravit nebo odstranit obsah Služeb dle vlastního uvážení a bez předchozího upozornění. Nemáme však žádnou povinnost aktualizovat informace o našich službách. Nebudeme vůči vám ani žádné třetí straně odpovědní za jakékoli změny, změny cen, pozastavení nebo ukončení služeb.
 
-#### **15. GOVERNING LAW**
+Nemůžeme zaručit, že služby budou vždy k dispozici. Může dojít k problémům s hardwarem, softwarem nebo jiným problémům nebo může být nutné provést údržbu související se Službami, což může vést k přerušením, zpožděním nebo chybám. Vyhrazujeme si právo kdykoli nebo z jakéhokoli důvodu změnit, revidovat, aktualizovat, pozastavit, ukončit nebo jinak upravit Služby bez předchozího upozornění. Souhlasíte s tím, že neneseme žádnou odpovědnost za jakékoli ztráty, škody nebo nepříjemnosti způsobené vaší neschopností přístupu ke Službám nebo jejich používání během jakéhokoli výpadku nebo přerušení poskytování Služeb. Nic v těchto právních podmínkách nebude vykládáno tak, že nás zavazuje udržovat a podporovat služby nebo poskytovat jakékoli opravy, aktualizace nebo vydání v souvislosti s nimi.
 
-These Legal Terms are governed by and interpreted following the laws of Czechia, and the use of the United Nations Convention of Contracts for the International Sales of Goods is expressly excluded. If your habitual residence is in the EU, and you are a consumer, you additionally possess the protection provided to you by obligatory provisions of the law in your country to residence. Ekdyson and yourself both agree to submit to the non-exclusive jurisdiction of the courts of Prague, which means that you may make a claim to defend your consumer protection rights in regards to these Legal Terms in Czechia, or in the EU country in which you reside.
+#### **15. ROZHODNÉ PRÁVO**
 
-#### **16. DISPUTE RESOLUTION**
+Tyto právní podmínky se řídí a vykládají podle zákonů ČR a použití Úmluvy OSN o smlouvách o mezinárodním prodeji zboží je výslovně vyloučeno. Pokud máte obvyklé bydliště v EU a jste spotřebitel, máte navíc ochranu, kterou vám poskytují závazná ustanovení zákona ve vaší zemi pobytu. Společnost Ekdyson i vy sami se zavazujete, že se podřídíte nevýhradní jurisdikci soudů v Praze, což znamená, že můžete vznést nárok na ochranu svých práv na ochranu spotřebitele ve vztahu k těmto Právním podmínkám v Česku nebo v zemi EU, ve které máte bydliště.
 
-**Binding Arbitration**
+#### **16. ŘEŠENÍ SPORŮ**
 
-Any dispute arising from the relationships between the Parties to these Legal Terms shall be determined by one arbitrator who will be chosen in accordance with the Arbitration and Internal Rules of the European Court of Arbitration being part of the European Centre of Arbitration having its seat in Strasbourg, and which are in force at the time the application for arbitration is filed, and of which adoption of this clause constitutes acceptance. The seat of arbitration shall be Praha, Czechia. The language of the proceedings shall be Czech. Applicable rules of substantive law shall be the law of Czechia.
+**Závazné rozhodčí řízení**
 
-**Restrictions**
+Jakýkoli spor vyplývající ze vztahů mezi stranami těchto právních podmínek bude rozhodovat jeden rozhodce, který bude vybrán v souladu s rozhodčím a vnitřním řádem Evropského rozhodčího soudu, který je součástí Evropského rozhodčího centra se sídlem ve Štrasburku, a který je v platnosti v době podání návrhu na rozhodčí řízení a jehož přijetí je akceptací tohoto ustanovení. Sídlem rozhodčího řízení je Praha, Česko. Jednacím jazykem je čeština. Použitelnými hmotněprávními pravidly jsou právní předpisy Česka.
 
-The Parties agree that any arbitration shall be limited to the Dispute between the Parties individually. To the full extent permitted by law, (a) no arbitration shall be joined with any other proceeding; (b) there is no right or authority for any Dispute to be arbitrated on a class-action basis or to utilise class action procedures; and (c) there is no right or authority for any Dispute to be brought in a purported representative capacity on behalf of the general public or any other persons.
+**Omezení**
 
-**Exceptions to Arbitration**
+Strany se dohodly, že jakékoli rozhodčí řízení bude omezeno na spor mezi stranami jednotlivě. V plném rozsahu povoleném zákonem: a) žádné rozhodčí řízení se nespojuje s žádným jiným řízením; b) neexistuje žádné právo nebo pravomoc rozhodovat spor na základě hromadných žalob nebo využívat hromadných žalob; a c) neexistuje žádné právo nebo pravomoc, aby byl jakýkoli spor předložen jako údajný zástupce jménem široké veřejnosti nebo jiných osob.
 
-The Parties agree that the following Disputes are not subject to the above provisions concerning binding arbitration: (a) any Disputes seeking to enforce or protect, or concerning the validity of, any of the intellectual property rights of a Party; (b) any Dispute related to, or arising from, allegations of theft, piracy, invasion of privacy, or unauthorised use; and (c) any claim for injunctive relief. If this provision is found to be illegal or unenforceable, then neither Party will elect to arbitrate any Dispute falling within that portion of this provision found to be illegal or unenforceable and such Dispute shall be decided by a court of competent jurisdiction within the courts listed for jurisdiction above, and the Parties agree to submit to the personal jurisdiction of that court.
+**Výjimky z rozhodčího řízení**
 
-#### **17. CORRECTIONS**
+Strany se dohodly, že výše uvedená ustanovení o závazném rozhodčím řízení se nevztahují na tyto spory: a) spory, jejichž cílem je vymáhat nebo chránit některá práva duševního vlastnictví strany nebo které se týkají jejich platnosti; b) spory související s údajnými krádežemi, pirátstvím, narušením soukromí nebo neoprávněným použitím nebo z nich vyplývající; a c) jakýkoli nárok na soudní zákaz. Je-li toto ustanovení shledáno nezákonným nebo nevymahatelným, pak žádná ze stran nezvolí rozhodčí spor spadající do této části tohoto ustanovení, který bude shledán nezákonným nebo nevymahatelným, a o takovém sporu rozhodne příslušný soud v rámci výše uvedených soudů a strany se dohodnou, že se podřídí osobní jurisdikci tohoto soudu.
 
-There may be information on the Services that contains typographical errors, inaccuracies, or omissions, including descriptions, pricing, availability, and various other information. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the Services at any time, without prior notice.
+#### **17. OPRAVY**
 
-#### **18. DISCLAIMER**
+Ve Službách mohou být informace, které obsahují typografické chyby, nepřesnosti nebo opomenutí, včetně popisů, cen, dostupnosti a různých dalších informací. Vyhrazujeme si právo na opravu jakýchkoli chyb, nepřesností nebo opomenutí a na změnu nebo aktualizaci informací o Službách kdykoliv a bez předchozího upozornění.
 
-THE SERVICES ARE PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SERVICES AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SERVICES' CONTENT OR THE CONTENT OF ANY WEBSITES OR MOBILE APPLICATIONS LINKED TO THE SERVICES AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SERVICES, (3) ANY UNAUTHORISED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SERVICES, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE SERVICES BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE SERVICES. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE SERVICES, ANY HYPERLINKED WEBSITE, OR ANY WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGEMENT AND EXERCISE CAUTION WHERE APPROPRIATE.
+#### **18. PRÁVNÍ OMEZENÍ**
 
-#### **19. LIMITATIONS OF LIABILITY**
+SLUŽBY JSOU POSKYTOVÁNY PODLE AKTUÁLNÍHO STAVU A DOSTUPNOSTI. SOUHLASÍTE, ŽE VAŠE POUŽÍVÁNÍ SLUŽEB BUDE NA VAŠE VLASTNÍ RIZIKO. V MAXIMÁLNÍM MOŽNÉM ROZSAHU POVOLENÉM ZÁKONEM SE ZŘÍKÁME VŠECH ZÁRUK, VÝSLOVNÝCH NEBO PŘEDPOKLÁDANÝCH, V SOUVISLOSTI SE SLUŽBAMI A JEJICH POUŽÍVÁNÍM, VČETNĚ, BEZ OMEZENÍ, PŘEDPOKLÁDANÝCH ZÁRUK OBCHODOVATELNOSTI, VHODNOSTI PRO KONKRÉTNÍ ÚČEL A NEPORUŠENÍ. NEPOSKYTUJEME ŽÁDNÉ ZÁRUKY NEBO PROHLÁŠENÍ O PŘESNOSTI NEBO ÚPLNOSTI OBSAHU SLUŽEB NEBO OBSAHU JAKÝCHKOLI WEBOVÝCH STRÁNEK NEBO MOBILNÍCH APLIKACÍ SPOJENÝCH SE SLUŽBAMI A NEPŘEBÍRÁME ŽÁDNOU ODPOVĚDNOST ZA ŽÁDNÉ (1) CHYBY, CHYBY NEBO NEPŘESNOSTI OBSAH A MATERIÁLY, (2) ZRANĚNÍ OSOB NEBO ŠKODY NA MAJETKU JAKÉKOLI POVAHY, VYPLÝVAJÍCÍ Z VAŠEHO PŘÍSTUPU KE SLUŽBÁM A JEJICH POUŽÍVÁNÍ, (3) JAKÝKOLI NEOPRÁVNĚNÝ PŘÍSTUP K NAŠIM ZABEZPEČENÝM SERVERŮM A/NEBO JAKÝMKOLI A VŠEM OSOBNÍM INFORMACÍM A/NEBO FINANČNÍM INFORMACÍM V NICH ULOŽENÝM, (4) JAKÉKOLI PŘERUŠENÍ NEBO UKONČENÍ PŘENOSU DO SLUŽEB NEBO Z NICH, (5) JAKÉKOLI CHYBY, VIRY, TROJSKÉ KONĚ NEBO PODOBNÉ PRODUKTY, KTERÉ MOHOU BÝT DO SLUŽEB NEBO PROSTŘEDNICTVÍM SLUŽEB PŘENÁŠENY TŘETÍ STRANOU, A/NEBO (6) JAKÉKOLI CHYBY NEBO OPOMENUTÍ V JAKÉMKOLI OBSAHU A MATERIÁLECH NEBO JAKÁKOLI ZTRÁTA NEBO ŠKODA JAKÉHOKOLI DRUHU VZNIKLÁ V DŮSLEDKU POUŽITÍ SLUŽEB JAKÝKOLI OBSAH ZVEŘEJNĚNÝ, PŘENÁŠENÝ NEBO JINAK ZPŘÍSTUPNĚNÝ PROSTŘEDNICTVÍM SLUŽEB. NERUČÍME, NESCHVALUJEME, NEZARUČUJEME ANI NEPŘEBÍRÁME ODPOVĚDNOST ZA JAKÝKOLI PRODUKT NEBO SLUŽBU INZEROVANOU NEBO NABÍZENOU TŘETÍ STRANOU PROSTŘEDNICTVÍM SLUŽEB, HYPERTEXTOVÝCH ODKAZŮ NEBO JAKÉKOLI WEBOVÉ STRÁNKY NEBO MOBILNÍ APLIKACE OBSAŽENÉ V BANNERU NEBO JINÉ REKLAMĚ A NEBUDEME STRANOU ANI ŽÁDNÝM ZPŮSOBEM ODPOVĚDNÝMI ZA SLEDOVÁNÍ JAKÉKOLI TRANSAKCE MEZI VÁMI A JAKÝMIKOLI TŘETÍMI STRANAMI POSKYTUJÍCÍMI PRODUKTY NEBO SLUŽBY. STEJNĚ JAKO PŘI NÁKUPU PRODUKTU NEBO SLUŽBY PROSTŘEDNICTVÍM LIBOVOLNÉHO MÉDIA NEBO V JAKÉMKOLI PROSTŘEDÍ BYSTE MĚLI POSTUPOVAT PODLE SVÉHO NEJLEPŠÍHO ÚSUDKU A POSTUPOVAT OPATRNĚ, JE-LI TO VHODNÉ.
 
-IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SERVICES, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO THE AMOUNT PAID, IF ANY, BY YOU TO US. CERTAIN US STATE LAWS AND INTERNATIONAL LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.
+#### **19. OMEZENÍ ODPOVĚDNOSTI**
 
-#### **20. INDEMNIFICATION**
+V ŽÁDNÉM PŘÍPADĚ NEBUDEME MY NEBO NAŠI ŘEDITELÉ, ZAMĚSTNANCI NEBO ZÁSTUPCI ODPOVĚDNÍ VÁM NEBO JAKÉKOLI TŘETÍ STRANĚ ZA JAKÉKOLI PŘÍMÉ, NEPŘÍMÉ, NÁSLEDNÉ, EXEMPLÁRNÍ, NÁHODNÉ, ZVLÁŠTNÍ NEBO REPRESIVNÍ ŠKODY, VČETNĚ UŠLÉHO ZISKU, UŠLÝCH PŘÍJMŮ, ZTRÁTY DAT NEBO JINÝCH ŠKOD VZNIKLÝCH V DŮSLEDKU VAŠEHO POUŽÍVÁNÍ SLUŽEB, A TO I V PŘÍPADĚ, ŽE JSME BYLI NA MOŽNOST TAKOVÝCH ŠKOD UPOZORNĚNI. BEZ OHLEDU NA COKOLI, CO JE ZDE UVEDENO, NAŠE ODPOVĚDNOST VŮČI VÁM Z JAKÉHOKOLI DŮVODU A BEZ OHLEDU NA FORMU AKCE BUDE VŽDY OMEZENA NA ČÁSTKU, KTEROU JSTE NÁM ZAPLATILI, POKUD VŮBEC NĚJAKÁ, VY. NĚKTERÉ ZÁKONY A MEZINÁRODNÍ ZÁKONY USA NEUMOŽŇUJÍ OMEZENÍ IMPLICITNÍCH ZÁRUK ZÁRUKY NEBO VYLOUČENÍ NEBO OMEZENÍ URČITÝCH ŠKOD. POKUD SE NA VÁS TYTO ZÁKONY VZTAHUJÍ, NEMUSÍ SE NA VÁS VZTAHOVAT NĚKTERÁ NEBO VŠECHNA VÝŠE UVEDENÁ ODMÍTNUTÍ ODPOVĚDNOSTI NEBO OMEZENÍ A MŮŽETE MÍT DALŠÍ PRÁVA.
 
-You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including reasonable attorneys’ fees and expenses, made by any third party due to or arising out of: (1) your Contributions; (2) use of the Services; (3) breach of these Legal Terms; (4) any breach of your representations and warranties set forth in these Legal Terms; (5) your violation of the rights of a third party, including but not limited to intellectual property rights; or (6) any overt harmful act toward any other user of the Services with whom you connected via the Services. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defence and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defence of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.
+#### **20. ODŠKODNĚNÍ**
 
-#### **21. USER DATA**
+Souhlasíte s tím, že nás budete chránit, odškodníte a ochráníte, včetně našich dceřiných společností, přidružených společností a všech našich příslušných pracovníků, zástupců, partnerů a zaměstnanců, před a proti jakékoli ztrátě, škodě, odpovědnosti, nároku nebo požadavku, včetně přiměřených odměn a výdajů advokátů, které vznikly třetí stranou v důsledku nebo v důsledku: (1) vašich příspěvků; (2) používání služeb; (3) porušení těchto právních podmínek; (4) jakéhokoli porušení vašich prohlášení a záruk stanovených v těchto právních podmínkách; (5) vašeho porušení práv třetí strany, včetně, ale bez omezení, práv duševního vlastnictví; nebo (6) jakékoli zjevné škodlivé jednání vůči jakémukoli jinému uživateli Služeb, se kterým jste se prostřednictvím Služeb spojili. Bez ohledu na výše uvedené si vyhrazujeme právo, na vaše náklady, převzít výhradní obranu a kontrolu nad jakoukoli záležitostí, za kterou jste povinni nás odškodnit, a souhlasíte, že budete na vaše náklady spolupracovat na naší obraně takových nároků. Vynaložíme přiměřené úsilí, abychom vás informovali o jakémkoli takovém nároku, opatření nebo řízení, které je předmětem tohoto odškodnění, jakmile se o něm dozvíme.
 
-We will maintain certain data that you transmit to the Services for the purpose of managing the performance of the Services, as well as data relating to your use of the Services. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Services. You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.
+#### **21. UŽIVATELSKÁ DATA**
 
-#### **22. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES**
+Uchováváme určité údaje, které předáváte Službám za účelem řízení výkonu Služeb, jakož i údaje týkající se Vašeho využívání Služeb. I když provádíme pravidelné rutinní zálohování dat, nesete výhradní odpovědnost za všechna data, která přenášíte nebo která se vztahují k jakékoli činnosti, kterou jste prováděli pomocí Služeb. Souhlasíte s tím, že vůči vám nebudeme mít žádnou odpovědnost za jakoukoli ztrátu nebo poškození takových údajů, a tímto se vzdáváte jakéhokoli práva na postup proti nám, který by vznikl v důsledku takové ztráty nebo poškození takových údajů.
 
-Visiting the Services, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Services, satisfy any legal requirement that such communication be in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SERVICES. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.
+#### **22. ELEKTRONICKÁ KOMUNIKACE, TRANSAKCE A PODPISY**
 
-#### **23. MISCELLANEOUS** 
+Návštěva Služeb, zasílání e-mailů a vyplňování on-line formulářů představují elektronickou komunikaci. Souhlasíte s přijímáním elektronické komunikace a souhlasíte s tím, že všechny smlouvy, oznámení, zveřejnění a další sdělení, která vám poskytujeme elektronicky, prostřednictvím e-mailu a na službách, splňují jakýkoli právní požadavek, aby taková komunikace byla písemná. TÍMTO SOUHLASÍTE S POUŽÍVÁNÍM ELEKTRONICKÝCH PODPISŮ, SMLUV, OBJEDNÁVEK A DALŠÍCH ZÁZNAMŮ A S ELEKTRONICKÝM DORUČOVÁNÍM OZNÁMENÍ, ZÁSAD A ZÁZNAMŮ O TRANSAKCÍCH, KTERÉ JSME INICIOVALI NEBO DOKONČILI NEBO KTERÉ JSME PROVEDLI PROSTŘEDNICTVÍM SLUŽEB. Tímto se vzdáváte veškerých práv nebo požadavků podle jakýchkoli stanov, předpisů, nařízení nebo jiných zákonů v jakékoli jurisdikci, které vyžadují původní podpis nebo doručení nebo uchovávání neelektronických záznamů, nebo plateb nebo poskytování úvěrů jakýmikoli jinými prostředky než elektronickými.
 
-These Legal Terms and any policies or operating rules posted by us on the Services or in respect to the Services constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Legal Terms shall not operate as a waiver of such right or provision. These Legal Terms operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Legal Terms is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Legal Terms and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Legal Terms or use of the Services. You agree that these Legal Terms will not be construed against us by virtue of having drafted them. You hereby waive any and all defences you may have based on the electronic form of these Legal Terms and the lack of signing by the parties hereto to execute these Legal Terms.
-  
-#### **24. CONTACT US**
+#### **23. RŮZNÉ**
 
-In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:
+Tyto právní podmínky a jakékoli zásady nebo provozní pravidla, které jsme zveřejnili na stránkách Služby nebo ve vztahu ke Službám, představují úplnou dohodu a porozumění mezi vámi a námi. Naše neschopnost uplatnit nebo vynutit jakékoli právo nebo ustanovení těchto právních podmínek nebude fungovat jako zřeknutí se takového práva nebo ustanovení. Tyto právní podmínky fungují v maximálním možném rozsahu povoleném zákonem. Kdykoli můžeme postoupit některá nebo všechna naše práva a povinnosti ostatním. Neodpovídáme ani nezodpovídáme za žádnou ztrátu, škodu, zpoždění nebo nečinnost způsobenou jakoukoli příčinou mimo naši rozumnou kontrolu. Je-li jakékoli ustanovení nebo část ustanovení těchto právních podmínek shledáno protiprávním, neplatným nebo nevymahatelným, je toto ustanovení nebo část ustanovení považováno za oddělitelné od těchto právních podmínek a nemá vliv na platnost a vymahatelnost jakýchkoli zbývajících ustanovení. Neexistuje žádný společný podnik, partnerství, zaměstnání nebo agenturní vztah vytvořený mezi vámi a námi v důsledku těchto právních podmínek nebo používání služeb. Souhlasíte s tím, že tyto právní podmínky nebudou vykládány proti nám na základě toho, že byly navrženy. Tímto se vzdáváte jakékoli a veškeré obhajoby, které jste mohli mít na základě elektronické formy těchto právních podmínek a nedostatečného podpisu stran této smlouvy k provedení těchto právních podmínek.
+
+#### **24. KONTAKTUJTE NÁS**
+
+Pro vyřešení stížnosti týkající se Služeb nebo pro získání dalších informací o využívání Služeb nás prosím kontaktujte na adrese:
 
 _Ekdyson_
 
-_Prague, Czechia_
+_Praha, Česko_
 
 _<ekdyson.help@gmail.com>_
