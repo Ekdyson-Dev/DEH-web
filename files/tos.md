@@ -105,7 +105,7 @@ Za svá podání a/nebo příspěvky nesete výhradní odpovědnost a výslovně
 
 **Porušení autorských práv**
 
-Respektujeme práva duševního vlastnictví ostatních. Pokud se domníváte, že jakýkoli materiál dostupný na nebo prostřednictvím Služeb porušuje libovolná autorská práva, která vlastníte nebo ovládáte, okamžitě se podívejte na oddíl '[](#dmca)[PORUŠENÍ AUTORSKÝCH PRÁV](#copyrightno)' níže.
+Respektujeme práva duševního vlastnictví ostatních. Pokud se domníváte, že jakýkoli materiál dostupný na nebo prostřednictvím Služeb porušuje libovolná autorská práva, která vlastníte nebo ovládáte, okamžitě se podívejte na oddíl '[PORUŠENÍ AUTORSKÝCH PRÁV](#12-porušení-autorských-práv)' níže.
 
 #### **3. VYJÁDŘENÍ UŽIVATELŮ**
 
