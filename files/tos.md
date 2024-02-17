@@ -10,7 +10,7 @@ We operate the website [https://ekdyson-dev.github.io/DEH-web/](https://ekdyson-
 
 You can contact us by email at ekdyson.help@gmail.com or by mail to Arabská 682/14, Praha 6 - Vokovice, Prague, Prague 155 00, Czechia.
 
-These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ('**y#### **ou**'), and Ekdyson, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ('**you**'), and Ekdyson, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
 
 Supplemental terms and conditions or documents that may be posted on the Services from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Legal Terms from time to time. We will alert you about any changes by updating the 'Last updated' date of these Legal Terms, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Legal Terms to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Legal Terms by your continued use of the Services after the date such revised Legal Terms are posted.
 
@@ -62,7 +62,7 @@ The Content and Marks are provided in or through the Services 'AS IS' for your p
 
 **Your use of our Services**
 
-Subject to your compliance with these Legal Terms, including the '[PROHIBITED ACTIVITIES](#prohibited)' section below, we grant you a non-exclusive, non-transferable, revocable licence to:
+Subject to your compliance with these Legal Terms, including the '[PROHIBITED ACTIVITIES](#5-prohibited-activities)' section below, we grant you a non-exclusive, non-transferable, revocable licence to:
 
 *   access the Services; and
 *   download or print a copy of any portion of the Content to which you have properly gained access.
@@ -79,7 +79,7 @@ Any breach of these Intellectual Property Rights will constitute a material brea
 
 **Your submissions and contributions**
 
-Please review this section and the '[PROHIBITED ACTIVITIES](#prohibited)' section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you have when you post or upload any content through the Services.
+Please review this section and the '[PROHIBITED ACTIVITIES](#5-prohibited-activities)' section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you have when you post or upload any content through the Services.
 
 **Submissions:** By directly sending us any question, comment, suggestion, idea, feedback, or other information about the Services ('Submissions'), you agree to assign to us all intellectual property rights in such Submission. You agree that we shall own this Submission and be entitled to its unrestricted use and dissemination for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you.
 
@@ -93,7 +93,7 @@ This licence includes our use of your name, company name, and franchise name, as
 
 **You are responsible for what you post or upload:** By sending us Submissions and/or posting Contributions through any part of the Services or making Contributions accessible through the Services by linking your account through the Services to any of your social networking accounts, you:
 
-*   confirm that you have read and agree with our '[PROHIBITED ACTIVITIES](#prohibited)' and will not post, send, publish, upload, or transmit through the Services any Submission nor post any Contribution that is illegal, harassing, hateful, harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually explicit, false, inaccurate, deceitful, or misleading;
+*   confirm that you have read and agree with our '[PROHIBITED ACTIVITIES](#5-prohibited-activities)' and will not post, send, publish, upload, or transmit through the Services any Submission nor post any Contribution that is illegal, harassing, hateful, harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually explicit, false, inaccurate, deceitful, or misleading;
 *   to the extent permissible by applicable law, waive any and all moral rights to any such Submission and/or Contribution;
 *   warrant that any such Submission and/or Contributions are original to you or that you have the necessary rights and licences to submit such Submissions and/or Contributions and that you have full authority to grant us the above-mentioned rights in relation to your Submissions and/or Contributions; and
 *   warrant and represent that your Submissions and/or Contributions do not constitute confidential information.
@@ -191,7 +191,7 @@ We reserve the right, but not the obligation, to: (1) monitor the Services for v
 
 #### **11. PRIVACY POLICY**
 
-We care about data privacy and security. Please review our Privacy Policy: **[https://ekdyson-dev.github.io/DEH-web/file.html?file=gdpr](https://ekdyson-dev.github.io/DEH-web/file.html?file=gdpr)**. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in Czechia. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in Czechia, then through your continued use of the Services, you are transferring your data to Czechia, and you expressly consent to have your data transferred to and processed in Czechia.
+We care about data privacy and security. Please review our Privacy Policy: **[GDPR](https://ekdyson-dev.github.io/DEH-web/file.html?file=gdpr)**. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in Czechia. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in Czechia, then through your continued use of the Services, you are transferring your data to Czechia, and you expressly consent to have your data transferred to and processed in Czechia.
 
 #### **12. COPYRIGHT INFRINGEMENTS**
 
