@@ -5,7 +5,7 @@
 
 **DOHODA S NAŠIMI PRÁVNÍMI PODMÍNKAMI**
 
-Jsme Egnoson ('**Společnost**', '**my**', '**us**' nebo '**náš**').
+Jsme Ekdyson ('**Společnost**', '**my**', nebo '**náš**').
 
 Provozujeme webovou stránku [https://ekdyson-dev.github.io/DEH-web/](https://ekdyson-dev.github.io/DEH-web/) (dále jen "**Stránka**"), jakož i další související produkty a služby, které odkazují na tyto právní podmínky nebo na ně odkazují (dále jen "**Právní podmínky**") (dále společně jako "**Služby**").
 
