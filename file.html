@@ -52,6 +52,7 @@
                             heading.id = heading.textContent
                                 .toLowerCase()
                                 .replace(/(\d)\./, "$1")
+                                .replaceAll(/[.,!?$\\\/()[\]{};%'"*]/g, "")
                                 .split(" ")
                                 .join("-");
                         });
