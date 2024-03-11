@@ -731,6 +731,17 @@ main {
             }
         }
     }
+    .soc.iframe {
+        justify-content: unset;
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            *{ 
+                background-color: transparent;
+            }
+        }
+    }
 
     #file {
         @include display(flex, center, flex-start);
