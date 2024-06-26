@@ -786,13 +786,14 @@ main .soc {
   justify-items: center;
   justify-content: center;
   background-color: #f7f7f7;
+  text-align: center;
 }
 main .soc p {
-  width: 50%;
   margin: 0 auto;
-  text-align: center;
   font-size: 1.25rem;
-  font-weight: bold;
+}
+main .soc h2 {
+  margin: 0;
 }
 main .registration {
   background-color: #606470;
